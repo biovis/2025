@@ -56,7 +56,7 @@ menu: main
 [Jim Procter](https://www.lifesci.dundee.ac.uk/people/jim-procter), University of Dundee, UK  
 [G. Elisabeta Marai](https://www.evl.uic.edu/marai/), University of Illinois at Chicago, USA  
 [Kay Nieselt](http://it.inf.uni-tuebingen.de/), University of Tübingen, Germany  
-[Marc Streit](http://marc-streit.com/), Johannes Kepler University Linz, Austria  
+[Michael Krone](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/visuelle-big-data-analytik-in-den-lebenswissenschaften/team/jun-prof-dr-michael-krone/), University of Tübingen, Germany  
 [Cagatay Turkay](https://warwick.ac.uk/fac/cross_fac/cim/people/cagatay-turkay/), University of Warwick, UK  
 [Jan Aerts](http://vda-lab.be), KU Leuven and U Hasselt, Belgium
 
