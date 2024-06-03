@@ -218,10 +218,11 @@ necessary starting code and information:
 
 ### References
 
-\[1\] Lin JR, Fallahi-Sichani M, Chen JY, Sorger PK. Cyclic
-Immunofluorescence (CycIF), A Highly Multiplexed Method for Single-cell
-Imaging. Curr Protoc Chem Biol. 2016 Dec 7;8(4):251-264. doi:
-10.1002/cpch.14. PMID: 27925668; PMCID: PMC5233430.
+\[1\] Lin JR, Fallahi-Sichani M, Chen JY, Sorger PK. Cyclic Immunofluorescence
+(CycIF), A Highly Multiplexed Method for Single-cell Imaging. Curr Protoc Chem
+Biol. 2016 Dec 7;8(4):251-264. doi:
+[10.1002/cpch.14](https://doi.org/10.1002/cpch.14). PMID: 27925668; PMCID:
+PMC5233430.
 
 \[2\] Ajit J. Nirmal, Zoltan Maliga, Tuulia Vallius, Brian Quattrochi,
 Alyce A. Chen, Connor A. Jacobson, Roxanne J. Pelletier, Clarence Yapp,
@@ -229,19 +230,20 @@ Raquel Arias-Camison, Yu-An Chen, Christine G. Lian, George F. Murphy,
 Sandro Santagata, Peter K. Sorger; The Spatial Landscape of Progression
 and Immunoediting in Primary Melanoma at Single-Cell Resolution. _Cancer
 Discov_ 1 June 2022; 12 (6): 1518--1541.
-https://doi.org/10.1158/2159-8290.CD-21-1357
+doi: [10.1158/2159-8290.CD-21-1357](https://doi.org/10.1158/2159-8290.CD-21-1357)
 
-\[3\] Yapp C, Nirmal AJ, Zhou F, Maliga Z, Tefft JB, Llopis PM, Murphy
-GF, Lian CG, Danuser G, Santagata S, Sorger PK; Human Tumour Atlas
-Network. Multiplexed 3D Analysis of Immune States and Niches in Human
-Tissue. bioRxiv \[Preprint\]. 2024 Mar 28:2023.11.10.566670. doi:
-10.1101/2023.11.10.566670. PMID: 38014052; PMCID: PMC10680601.
+\[3\] Yapp C, Nirmal AJ, Zhou F, Maliga Z, Tefft JB, Llopis PM, Murphy GF, Lian
+CG, Danuser G, Santagata S, Sorger PK; Human Tumour Atlas Network. Multiplexed
+3D Analysis of Immune States and Niches in Human Tissue. bioRxiv \[Preprint\].
+2024 Mar 28:2023.11.10.566670. doi:
+[10.1101/2023.11.10.566670](https://doi.org/10.1101/2023.11.10.566670).
+PMID: 38014052; PMCID: PMC10680601.
 
 ## Submission
 
 Submissions will be considered for talk or poster presentations. Please
 send a two-page PDF abstract with up to 5 additional figures and a draft
-of your proposed poster (max 10MB) to PCS
+of your proposed poster (max 10MB) to PCS:
 [new.precisionconference.com/submissions](http://new.precisionconference.com/submissions).
 The abstract should include:
 
