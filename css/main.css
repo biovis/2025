@@ -826,12 +826,12 @@ ul.post-list {
 
     .schedulerow > :first-child {
         margin-bottom: 0.5em;
-        font-size: 120%;
     }
 }
 
 .schedulerow > :first-child {
     flex-shrink: 0;
+    font-size: 1.2em;
     min-width: 5em;
 }
 
@@ -864,6 +864,20 @@ ul.post-list {
 
 .scheduledetails p {
     margin-bottom: 0;
+}
+
+.talk-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.talk-title:not(:first-child) {
+    margin-top: 1.5em;
+}
+
+.showToggle3 {
+    cursor: pointer;
 }
 
 /* --- */

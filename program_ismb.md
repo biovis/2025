@@ -76,4 +76,4 @@ been recognized with several prestigious awards.
 
 ## Program
 
-To be announced.
+{% include_relative program_ismb_timetable.html %}
