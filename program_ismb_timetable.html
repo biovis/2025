@@ -1,3 +1,5 @@
+<p>All times listed are in EDT.</p>
+
 <div class="row schedulerow">
     <div class="timeSpans"> 10:40-10:45 </div>
     <div class="scheduledetails">
@@ -183,10 +185,6 @@
         <div class="talk-title">
             <strong>New BioCyc Visualization Tools for Genome Exploration and Comparison</strong>
         </div>
-        <div class="room">
-            <strong>Presenter:</strong> Suzanne Paley, SRI International, United States
-        </div>
-
 
 
         <div class="room">
@@ -231,11 +229,6 @@
         <div class="talk-title">
             <strong>Matreex: compact and interactive visualisation of large gene families</strong>
         </div>
-        <div class="room">
-            <strong>Presenter:</strong> Yannis Nevers, Université de Lausanne, Switzerland
-        </div>
-
-
 
         <div class="room">
             <strong>Moderator(s):</strong> Zeynep Gümüş
@@ -280,11 +273,6 @@
         <div class="talk-title">
             <strong>Interactive visualisation of raw nanopore signal data with Squigualiser</strong>
         </div>
-        <div class="room">
-            <strong>Presenter:</strong> Hiruna Samarakoon, University of New South Wales, Sydney; Garvan Institute
-            of Medical Research, Sydney, Australia
-        </div>
-
 
 
         <div class="room">
@@ -328,10 +316,6 @@
         <div class="talk-title">
             <strong>Aggregate Annotated Single-Cell Heatmap Visualizations</strong>
         </div>
-        <div class="room">
-            <strong>Presenter:</strong> Devin Lange, University of Utah, United States
-        </div>
-
 
 
         <div class="room">
@@ -373,11 +357,6 @@
         <div class="talk-title">
             <strong>Aardvark: Composite Visualizations of Trees, Time-Series, and Images</strong>
         </div>
-        <div class="room">
-            <strong>Presenter:</strong> Devin Lange, University of Utah, United States
-        </div>
-
-
 
         <div class="room">
             <strong>Moderator(s):</strong> Zeynep Gümüş
@@ -421,11 +400,6 @@
             <strong>Boosting Data Interpretation with GIBOOST to Enhance Visualization of High-Dimensional
                 Data</strong>
         </div>
-        <div class="room">
-            <strong>Presenter:</strong> Komlan Atitey, National Institutes Health (NIH), United States
-        </div>
-
-
 
         <div class="room">
             <strong>Moderator(s):</strong> Zeynep Gümüş
@@ -513,10 +487,6 @@
             <strong>Invited Presentation: The Insight’s in the Details: Challenges and Opportunities in Visually
                 Exploring High-Dimensional BioMedical Data</strong>
         </div>
-        <div class="room">
-            <strong>Presenter:</strong> Fritz Lekschas, Ozette Technologies
-        </div>
-
 
 
         <div class="room">
@@ -546,3 +516,19 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.querySelectorAll(".showToggle3").forEach(link => {
+        link.addEventListener("click", (event) => {
+            const t = event.target;
+            if (t.innerText === "Show") {
+                t.innerText = "Hide";
+                t.parentElement.nextElementSibling.style.display = "block";
+            } else {
+                t.innerText = "Show";
+                t.parentElement.nextElementSibling.style.display = "none";
+            }
+            event.preventDefault();
+        });
+    });
+</script>
