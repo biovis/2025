@@ -57,6 +57,6 @@ collections:
     - posters_ISMB
 
 google_analytics: "'UA-22015250-1'"
-use_analytics: true
+use_analytics: false
 encoding: utf-8
 lang: en-US
