@@ -11,6 +11,7 @@ conferenceshort: "BioVis 2024"
 
 IEEE_conference_date: "October 13 - 18, 2024"
 IEEE_conference_place: "Florida, USA"
+IEEE_challenge_date: "October 13, 2024"
 
 year: 2024
 
@@ -19,7 +20,6 @@ year: 2024
 IEEE_deadline_submission: "August 16, 2024"
 IEEE_deadline_notification: "August 23, 2024"
 IEEE_deadline_camera: "August 30, 2024"
-#IEEE_deadline_poster: "TBD"
 
 ismb_conference_name: "ISMB 2024"
 ismb_conference_link: "https://www.iscb.org/ismb2024"

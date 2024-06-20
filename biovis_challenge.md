@@ -270,6 +270,7 @@ Vitessce.
 -   Submission: {{ site.IEEE_deadline_submission }}
 -   Notification: {{ site.IEEE_deadline_notification }}
 -   Camera-ready version: {{ site.IEEE_deadline_camera }}
+-   Bio+MedVis Challenge event: {{ site.IEEE_challenge_date }}
 
 ## Questions?
 
