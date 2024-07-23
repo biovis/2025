@@ -6,7 +6,7 @@ event: ismb
 categories: ismb
 ---
 
-BioVis concluded its annual event at ISMB 2024. One of the abstracts stood out and was honored with the "Best Abstract Award"
+BioVis concluded its annual event at ISMB 2024, showcasing outstanding content and numerous impressive works. One abstract, in particular, stood out and was honored with the "Best Abstract Award."
 
 ### Best Abstract Award
 
