@@ -8,4 +8,6 @@ back_url: biovisChallenges_vis
 
 # Bio+MedVis Challenge @ IEEE VIS 2024 – Program
 
-To be announced.
+Full program details will be available soon.
+
+{% include_relative program_ieee_timetable.html %}

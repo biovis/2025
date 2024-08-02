@@ -265,6 +265,10 @@ accepted submissions will be published in the conference proceedings.
 Winning designs may be invited to become a plugin or extension to
 Vitessce.
 
+## Program
+
+See the [program](../program_ieee/) for more details.
+
 ## Important dates
 
 -   Submission: {{ site.IEEE_deadline_submission }}
