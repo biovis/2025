@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bio+MedVis Deadline Extension for Submissions"
-date: 2024-08-02
+date: 2024-08-07
 event: challenge
 categories: challenge
 ---
