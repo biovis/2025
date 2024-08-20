@@ -19,7 +19,7 @@ Join us **Sept 18** at 5 pm Berlin / 4 pm London / 11am East Coast US
 
 **A picture of health: Visualisations in medical publishing**
 
-With Will Stah-Timmins, Data Graphics Designer at BMJ - British Medical Journal.
+With Will Stahl-Timmins, Data Graphics Designer at BMJ - British Medical Journal.
 MA in Design, PhD on Information Graphics in Health technology Assessment, 10
 years experience in medical infographics
 ([https://www.bmj.com/infographics](https://www.bmj.com/infographics)).
@@ -43,7 +43,7 @@ All recordings are available on [YouTube](https://youtube.com/playlist?list=PL5k
 
 <div class="scalable-banner meetup-speaker-banner">
     <img src="{{ site.baseurl }}/images/speakers/will_stah-timmins.avif"
-         alt="Will Stah-Timmins" />
+         alt="Will Stahl-Timmins" />
     <div>
         <div>September 18, 2024 with <strong>Will Stah-Timmins</strong></div>
         <div class="title">A picture of health: Visualisations in medical publishing</div>
