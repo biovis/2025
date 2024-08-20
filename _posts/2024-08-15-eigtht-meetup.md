@@ -45,7 +45,7 @@ All recordings are available on [YouTube](https://youtube.com/playlist?list=PL5k
     <img src="{{ site.baseurl }}/images/speakers/will_stah-timmins.avif"
          alt="Will Stahl-Timmins" />
     <div>
-        <div>September 18, 2024 with <strong>Will Stah-Timmins</strong></div>
+        <div>September 18, 2024 with <strong>Will Stahl-Timmins</strong></div>
         <div class="title">A picture of health: Visualisations in medical publishing</div>
     </div>
 </div>
