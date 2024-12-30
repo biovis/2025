@@ -1,50 +1,50 @@
 # Site settings
-title: "BioVis 2024"
+title: "BioVis 2025"
 email: "website@biovis.net"
 description: "Biological Data Visualization"
-baseurl: "/2024"
+baseurl: "/2025"
 url: "http://biovis.net"
-conferenceshort: "BioVis 2024"
+conferenceshort: "BioVis 2025"
 
 #FIX ME: the event number is most likely not correct
 #eventNum: "12th"
 
-IEEE_conference_date: "October 13 - 18, 2024"
-IEEE_conference_place: "Florida, USA"
-IEEE_challenge_date: "October 13, 2024"
+IEEE_conference_date: "TBA"
+IEEE_conference_place: "TBA"
+IEEE_challenge_date: "TBA"
 
-year: 2024
+year: 2025
 
 # Old deadlines so I remember what they're called
 # When everything breaks
-IEEE_deadline_submission: "August 23, 2024"
-IEEE_deadline_notification: "August 29, 2024"
-IEEE_deadline_camera: "September 5, 2024"
+IEEE_deadline_submission: "TBA"
+IEEE_deadline_notification: "TBA"
+IEEE_deadline_camera: "TBA"
 
-ismb_conference_name: "ISMB 2024"
-ismb_conference_link: "https://www.iscb.org/ismb2024"
-ismb_conference_registration_link: "https://www.iscb.org/ismb2024-register"
-ismb_conference_date: "July 12 - 16, 2024"
-ismb_conference_place: "Montreal, Quebec, Canada - Palais des congrès de Montréal"
-ismb_conference_key_dates_link: "https://www.iscb.org/ismb2024/key-dates"
+ismb_conference_name: "ISMB/ECCB 2025"
+ismb_conference_link: "https://www.iscb.org/ismbeccb2025"
+ismb_conference_registration_link: "https://www.iscb.org/ismbeccb2025/register"
+ismb_conference_date: "July 20 - 25, 2025"
+ismb_conference_place: "Liverpool, UK - ACC Liverpool"
+ismb_conference_key_dates_link: "https://www.iscb.org/ismbeccb2025/key-dates"
 
-ismb_cosi_date: "July 14, 2024"
+ismb_cosi_date: "July 24, 2025"
 
-ismb_paper_submission_deadline: "January 25, 2024"
-ismb_paper_conditional_acceptance: "March 7, 2024"
-ismb_paper_revision_deadline: "March 18, 2024"
-ismb_paper_final_acceptance: "April 2, 2024"
+ismb_paper_submission_deadline: "January 23, 2025"
+ismb_paper_conditional_acceptance: "March 13, 2025"
+ismb_paper_revision_deadline: "March 27, 2025"
+ismb_paper_final_acceptance: "April 2, 2025"
 
-ismb_talk_submission_deadline: "April 19, 2024"
-ismb_talk_acceptance: "May 13, 2024"
+ismb_talk_submission_deadline: "April 17, 2025"
+ismb_talk_acceptance: "May 13, 2025"
 
-ismb_poster_submission_deadline: "April 19, 2024"
-ismb_poster_acceptance: "May 13, 2024"
-ismb_poster_late_submission_deadline: "May 20, 2024"
-ismb_poster_late_acceptance: "May 28, 2024"
+ismb_poster_submission_deadline: "April 17, 2025"
+ismb_poster_acceptance: "May 13, 2025"
+ismb_poster_late_submission_deadline: "May 15, 2025"
+ismb_poster_late_acceptance: "May 22, 2025"
 
-ismb_paper_submission_link: "https://www.iscb.org/ismb2024/submissions/proceedings"
-ismb_abstract_submission_link: "https://www.iscb.org/ismb2024/submissions/abstracts"
+ismb_paper_submission_link: "https://www.iscb.org/ismbeccb2025/call-for-submissions/proceedings"
+ismb_abstract_submission_link: "https://www.iscb.org/ismbeccb2025/call-for-submissions/abstracts"
 
 #bmc_submission_deadline: ""
 #bmc_conditional_accept: ""

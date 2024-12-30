@@ -10,7 +10,7 @@ menu: main
 
 ### General chairs
 
-[Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
+[Zeynep Gümüş](https://labs.icahn.mssm.edu/gumuslab/), Icahn School of Medicine at Mount Sinai, USA  
 [Qianwen Wang](https://qianwen.info/), Harvard University, USA
 
 ### Website chair
@@ -19,15 +19,14 @@ menu: main
 
 ### Publicity chair
 
-[Jen Rogers](https://jenrogers.dev/), University of Utah, USA
+[Astrid van den Brandt ](https://research.tue.nl/en/persons/astrid-van-den-brandt), Eindhoven University of Technology, The Netherlands
 
 ## BioVis COSI @ ISMB {{site.year}}
 
 ### Abstracts Chairs
 
-[Katarína Furmanová](https://www.muni.cz/en/people/374538-katarina-furmanova), Masaryk University, Czech Republic  
-[Aditeya Pandey](https://aditeyapandey.github.io/), Regeneron Genetics Center, United States  
-[Zeynep Gümüş](https://labs.icahn.mssm.edu/gumuslab/), Icahn School of Medicine at Mount Sinai, USA
+[Jen Rogers](https://jenrogers.dev/), University of Utah, USA
+Robert Krueger
 
 ### ISMB Liaison Chairs
 
