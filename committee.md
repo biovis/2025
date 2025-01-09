@@ -25,7 +25,7 @@ menu: main
 
 ### Abstracts Chairs
 
-[Jen Rogers](https://jenrogers.dev/), University of Utah, USA
+[Jen Rogers](https://jenrogers.dev/), University of Utah, USA  
 Robert Krueger
 
 ### ISMB Liaison Chairs
