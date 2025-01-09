@@ -6,11 +6,8 @@ baseurl: "/2025"
 url: "http://biovis.net"
 conferenceshort: "BioVis 2025"
 
-#FIX ME: the event number is most likely not correct
-#eventNum: "12th"
-
-IEEE_conference_date: "TBA"
-IEEE_conference_place: "TBA"
+IEEE_conference_date: "November 2 - 7, 2025"
+IEEE_conference_place: "Vienna, Austria"
 IEEE_challenge_date: "TBA"
 
 year: 2025
