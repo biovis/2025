@@ -10,7 +10,7 @@ permalink: /biovisChallenges_vis/
 
 ### Background and Data Description
 
-<p style="float: right; width: 30%">
+<p style="float: right; width: 30%; margin-left: 1em;">
 <img src="{{site.baseurl}}/images/biovis-challenge/biomedvis2025-graphic.avif" alt="Bio+MedVis Teaser" style="width: 100%">
 </p>
 
@@ -92,9 +92,9 @@ interactive solutions are welcome**\!
 ### Data and Documentation
 
 <figure>
-    <img src="{{site.baseurl}}/images/biovis-challenge/spectral-output.avif" alt="Spectral Output" />
+    <img src="{{site.baseurl}}/images/biovis-challenge/fig2.png" alt="Spectral Output" />
     <figcaption>
-        <strong>Fig. 2</strong>. Rendering of one spectral output from the provided dataset. Peaks indicate metabolites in the sample. Important chemical shifts for metabolites of interest (as noted in below Table) are marked with vertical grey bars, and are based on the chemical shift table presented by Sedivy et al. [8].
+        <strong>Fig. 2</strong>. Rendering of one spectral output from the provided dataset. Peaks indicate metabolites in the sample. Important chemical shifts for metabolites of interest (as noted in below Table) are marked with vertical grey bars, and are based on the chemical shift table presented by Deelchand et al. [8].
     </figcaption>
 </figure>
 
@@ -104,67 +104,13 @@ The provided dataset includes 18 spectral outputs, one of which is illustrated
 in Fig 2\. Each peak in this figure corresponds to a metabolite, for example,
 phosphocreatine is the tall peak centered at approximately 0.0 parts per
 million. The below table lists the more commonly-assessed metabolites and their
-chemical shifts. Note that some metabolites have multiple peaks, e.g., PME:
+chemical shifts. Note that some metabolites have multiple peaks, e.g., DPG:
 
-<style type="text/css">
-    .metabolite-table {
-        border-collapse: collapse;
-    }
-    .metabolite-table td, .metabolite-table th {
-        text-align: left;
-        border: 1px solid black;
-        padding: 3px 2em 3px 0.5em;
-    }
-</style>
+<figure>
+    <img src="{{site.baseurl}}/images/biovis-challenge/metabolite_chemicalshifts_table.png" alt="Metabolite table" />
+</figure>
 
-<table class="metabolite-table">
-  <thead>
-    <tr>
-      <th>Metabolite</th>
-      <th>Abbreviation</th>
-      <th>Chemical shift(s)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Phosphocreatine</td>
-      <td>PCr</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <td>Phosphoethanolamine<br>Phospholcholine<br>Phosphoenolpyruvate</td>
-      <td>PME</td>
-      <td>6.74<br>6.19<br>2.00</td>
-    </tr>
-    <tr>
-      <td>Inorganic phosphate</td>
-      <td>Pi</td>
-      <td>4.78</td>
-    </tr>
-    <tr>
-      <td>2.3-diphosphoglycerate</td>
-      <td>PDE</td>
-      <td>4.09<br>5.338</td>
-    </tr>
-    <tr>
-      <td>Adenosine triphosphate</td>
-      <td>αATP</td>
-      <td>-7.98 (invivo range -7–8)</td>
-    </tr>
-    <tr>
-      <td>Adenosine triphosphate</td>
-      <td>βATP</td>
-      <td>-16.00</td>
-    </tr>
-    <tr>
-      <td>Adenosine triphosphate</td>
-      <td>γATP</td>
-      <td>-3.37 (invivo range -3–4)</td>
-    </tr>
-  </tbody>
-</table>
-
-For a detailed table of other metabolites and their chemical shifts, we refer to Table 1 in Sedivy et al. \[8\].
+For a detailed table of other metabolites and their chemical shifts, we refer to Deelchand et al. [8].
 
 #### Data Description
 
@@ -203,7 +149,7 @@ The full dataset for those interested in a (much) deeper dive is available here:
 
 \[7\] Garrison, L., Vašíček, J., Craven, A. R., Grüner, R., Smit, N. N., & Bruckner, S. (2020). Interactive visual exploration of metabolite ratios in MR spectroscopy studies. _Computers & Graphics_, _92_, 1-12. Accompanying github repository and tool: [https://github.com/lauragarrison87/spectramosaic-public](https://github.com/lauragarrison87/spectramosaic-public) .
 
-\[8\] Sedivy, P., Dusilova, T., Hajek, M., Burian, M., Krššák, M., & Dezortova, M. (2021). In vitro 31P MR chemical shifts of in vivo-detectable metabolites at 3T as a basis set for a pilot evaluation of skeletal muscle and liver 31P spectra with LCModel software. _Molecules_, _26_(24), 7571\.
+\[8\] Deelchand, D. K., Nguyen, T. M., Zhu, X. H., Mochel, F., & Henry, P. G. (2015). Quantification of in vivo 31P NMR brain spectra using LCModel. _NMR in Biomedicine_, _28_(6), 633-641.
 
 \[9\] [MRS Hub](https://mrshub.org/software_visualization/): Compiled list of MRS quantification and visualization software
 
