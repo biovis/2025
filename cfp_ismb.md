@@ -68,11 +68,41 @@ Participants are encouraged to submit short abstracts describing their recently 
 
 #### Submission Guidelines
 
-Authors are required to submit an abstract by {{ site.ismb_talk_submission_deadline }} through the [ISMB abstract submission site]({{ site.ismb_abstract_submission_link }}). Apart from the submission guidelines outlined on the [ISMB page](https://www.iscb.org/ismb2024/submissions/abstracts), the abstract must adhere to the following BioVis guidelines:
+Authors are required to submit an abstract by {{ site.ismb_talk_submission_deadline }} through the [ISMB abstract submission site]({{ site.ismb_abstract_submission_link }}). Apart from the submission guidelines outlined on the [ISMB page]({{ site.ismb_abstract_submission_link }}), the abstract must adhere to the following BioVis guidelines:
 
 **Published work:** Authors are required to submit a short abstract (250 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>. Abstracts should include a concise description of the work and may include descriptive figures. The previously published paper **must** be submitted along with the abstract, unless the paper is open access.
 
 **Unpublished work:** Authors are required to submit an extended abstract (1500 words) by <time>{{ site.ismb_talk_submission_deadline }}</time>. The text should include a concise description of the work and have descriptive figures.
+
+<style>
+  .ismb-abstract-lengths {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+
+  .ismb-abstract-lengths div {
+    background: var(--background-color-dark);
+    color: var(--text-color-on-dark);
+    padding: 0 1em;
+    border-radius: 0.5em;
+  }
+  .ismb-abstract-lengths p {
+    margin: 0.6em 0;
+    font-size: 1em;
+  }
+</style>
+
+<div class="ismb-abstract-lengths">
+  <div>
+    <h5>Published work</h5>
+    <p>Short abstract: up to <strong>250</strong> words</p>
+  </div>
+  <div>
+    <h5>Unpublished work</h5>
+    <p>Extended abstract: up to <strong>1500</strong> words</p>
+  </div>
+</div>
 
 ### 3. Posters - _Submission Deadline: {{ site.ismb_poster_submission_deadline }} (with late posters deadline {{ site.ismb_poster_late_submission_deadline }})_
 
