@@ -19,14 +19,14 @@ menu: main
 
 ### Publicity chair
 
-[Astrid van den Brandt ](https://research.tue.nl/en/persons/astrid-van-den-brandt), Eindhoven University of Technology, The Netherlands
+[Astrid van den Brandt](https://research.tue.nl/en/persons/astrid-van-den-brandt), Eindhoven University of Technology, The Netherlands
 
 ## BioVis COSI @ ISMB {{site.year}}
 
 ### Abstracts Chairs
 
 [Jen Rogers](https://jenrogers.dev/), University of Utah, USA  
-Robert Krueger
+[Robert Krueger](https://engineering.nyu.edu/faculty/robert-krueger), New York University, USA
 
 ### ISMB Liaison Chairs
 
