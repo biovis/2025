@@ -12,7 +12,17 @@ back_url: ismb
 
 ## Invited Speakers
 
-TBA
+### Kay Nieselt
+
+[Kay Nieselt](https://www.phd.tuebingen.mpg.de/35127/kay-nieselt), University of Tübingen, Germany
+
+Talk title and abstract to be announced.
+
+### Ingrid Hotz
+
+[Ingrid Hotz](https://liu.se/en/employee/ingho32), Linköping University, Sweden
+
+Talk title and abstract to be announced.
 
 ## Program
 
