@@ -26,7 +26,8 @@ menu: main
 ### Abstracts Chairs
 
 [Jen Rogers](https://jenrogers.dev/), University of Utah, USA  
-[Robert Krueger](https://engineering.nyu.edu/faculty/robert-krueger), New York University, USA
+[Robert Krueger](https://engineering.nyu.edu/faculty/robert-krueger), New York University, USA  
+[Aditeya Pandey](https://aditeyapandey.github.io/), Regeneron Genetics Center, United States
 
 ### ISMB Liaison Chairs
 
