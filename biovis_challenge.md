@@ -157,6 +157,23 @@ The full dataset for those interested in a (much) deeper dive is available here:
 
 ## 3D Microscopy Imaging Challenge: From a RAW imaging volume to biological findings
 
+<figure>
+    <img src="{{site.baseurl}}/images/biovis-challenge/lin-wang-coy.png" alt="Multiplexed 3D atlas" />
+    <figcaption>
+        <strong>Fig.</strong> Lin, Wang, Coy et al., 2023, <strong>Multiplexed
+        3D atlas of state transitions and immune interactions in colorectal
+        cancer</strong>, <em>Cell</em>, 186, 363-381.<br>Adapted by Clarence Yapp, 2024.
+    </figcaption>
+</figure>
+
+<div style="display: flex; justify-content: center">
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/8TLydpm07Vo?si=MmytUlNvhlYkAlWc"
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 ### Biological Background and Data Description
 
 Highly multiplexed tissue imaging methods, such as Cyclic Immunofluorescence
@@ -217,7 +234,14 @@ dataset and some notable cell-cell interactions. This notebook uses Vitessce,
 which participants are welcome to build on, though they may also develop their
 own visualization/visual analytics systems or build on other systems.
 
-[BioMedVis Challenge 2025.ipynb](https://colab.research.google.com/drive/1hMXNI3dbIM4JTnQ69fgVrsvO3Jq0ZPDo?usp=sharing)
+Jupyter notebook: [BioMedVis Challenge 2025.ipynb](https://colab.research.google.com/drive/1hMXNI3dbIM4JTnQ69fgVrsvO3Jq0ZPDo?usp=sharing)
+
+AWS Bucket: [https://lsp-public-data.s3.amazonaws.com/yapp-2023-3d-melanoma/](https://lsp-public-data.s3.amazonaws.com/yapp-2023-3d-melanoma/)
+
+Access Instructions: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)
+
+To browse the data, we suggest using Cyberduck, as outlined in the instructions
+above.
 
 ### References
 
