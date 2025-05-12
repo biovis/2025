@@ -6,6 +6,10 @@ permalink: /biovisChallenges_vis/
 
 # Bio+MedVis Challenge @ IEEE VIS 2025
 
+-   [Redesign Challenge](#redesign-challenge-redesign-an-existing-visualization)
+-   [3D Microscopy Imaging Challenge](#3d-microscopy-imaging-challenge-from-a-raw-imaging-volume-to-biological-findings)
+-   [Submission](#submission)
+
 ## Redesign Challenge: Redesign an Existing Visualization
 
 ### Background and Data Description
@@ -251,7 +255,7 @@ above.
 
 \[3\] Yapp C, Nirmal AJ, Zhou F, Maliga Z, Tefft JB, Llopis PM, Murphy GF, Lian CG, Danuser G, Santagata S, Sorger PK; Human Tumour Atlas Network. Multiplexed 3D Analysis of Immune States and Niches in Human Tissue. bioRxiv \[Preprint\]. 2024 Mar 28:2023.11.10.566670. doi: [10.1101/2023.11.10.566670](https://doi.org/10.1101/2023.11.10.566670). PMID: 38014052; PMCID: PMC10680601.
 
-# Submission
+## Submission
 
 Submissions for either the redesign or the main challenge will be considered for
 talk or poster presentations. Please send a two-page PDF abstract with up to 5
@@ -267,7 +271,7 @@ Selected submissions will be invited for talk presentations during the
 Bio+MedVis session at the [IEEE VIS 2025](https://ieeevis.org/year/2025/welcome)
 conference.
 
-## Evaluation of Submissions
+### Evaluation of Submissions
 
 All submissions will be evaluated by at least two reviewers, coming from the
 challenge chairs and selected domain experts. All accepted submissions will be
