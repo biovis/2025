@@ -21,7 +21,55 @@ back_url: ismb
 
 [Kay Nieselt](https://www.phd.tuebingen.mpg.de/35127/kay-nieselt), University of Tübingen, Germany
 
-Talk abstract and speaker bio to be added soon...
+**Abstract:**
+Over the past decades, advances in biology and medicine—driven by
+high-throughput and high-resolution experimental methods—have underscored the
+critical role of visualization in interpreting and communicating complex
+biological data. The interplay between life sciences and the visualization
+domain has revealed a deep and natural synergy, where visual analytics has
+become indispensable for discovery and insight.
+
+In this talk, I will reflect on nearly 30 years of experience in developing
+visual analytics solutions for large-scale biological data, with a particular
+focus on multi-omics visualization. I will present a conceptual framework for
+classifying multi-omics visualizations and illustrate it through selected
+examples from tools developed by my research group. These range from
+genome-level visualizations to tools for exploring quantitative omics and
+epiproteomics data.
+
+I will also introduce [TueVis](https://tuevis.cs.uni-tuebingen.de), a web-based
+resource developed and maintained by my group, offering interactive,
+user-friendly visualization tools spanning multiple omics layers. Designed for
+researchers in bioinformatics and the life sciences, TueVis aims to lower the
+barrier to high-quality data exploration and interpretation. The talk will
+conclude with a perspective on emerging challenges and opportunities in the
+evolving field of multi-omics visualization.
+
+**Speaker Bio:**
+Kay Nieselt is a Professor of Bioinformatics at the University of Tübingen,
+where she leads the research group Integrative Transcriptomics. She earned her
+Ph.D. in Mathematics from the University of Bielefeld, Germany. During her
+doctoral work on modeling virus evolution, she began developing visual analytics
+methods for large-scale biological data—an area that would become a central
+theme of her research.
+
+Her work spans a broad range of bioinformatics domains, including integrative
+analysis of genomics (with a focus on paleogenomics), transcriptomics, and other
+omics data types. She is particularly recognized for her contributions to the
+visualization of large-scale biological datasets and the application and
+development of machine learning methods for omics data interpretation. In 2012,
+her group was awarded the Illumina iDEA Challenge Award for the most creative
+algorithm handling large-scale next-generation sequencing data. Over the years,
+her team has developed numerous visual analytics tools tailored to multi-omics
+analysis, with a consistent emphasis on creating innovative yet user-friendly
+visualizations. These tools support diverse applications such as large-scale
+gene expression profiling, multiple genome alignments, pan-genome exploration,
+and integrative multi-omics data analysis.
+
+Kay Nieselt has been actively involved in the BioVis community since its
+inception in 2011, serving on both the program and steering committees. She
+chaired the BioVis Special Interest Group (SIG) at ISMB in 2014 and 2015 and
+subsequently served as the spokesperson for the BioVis COSI.
 
 ### Visual Data Analysis Research in Biomedical Applications: Navigating the Line Between Scientific Novelty and Practical Impact
 
@@ -44,7 +92,7 @@ both fields and real-world applicability. These reflections also raise broader
 questions about research sustainability: When is a project complete, and when
 is it time to move on
 
-**Bio:** Ingrid Hotz is a professor of scientific visualization at Linköping
+**Speaker bio:** Ingrid Hotz is a professor of scientific visualization at Linköping
 University in Sweden. She received her M.S. degree in theoretical physics from
 Ludwig Maximilian University in Munich, Germany, and her Ph.D. in computer
 science from TU Kaiserslautern, Germany. After a postdoctoral position at the
