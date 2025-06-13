@@ -125,7 +125,7 @@ GitLab](https://git.app.uib.no/biomedvis2025/31p-mrs-redesign/-/tree/main/data?r
 The dataset we provide includes **18 pre-processed spectra**. The spectra are
 split into two csv files:
 
--   `spectra.csv`: Each spectrum is a 2048 x 1 vector that represents the measured amplitude of a given metabolite at a given chemical shift for a single subject. There are 18 vectors for a total array size of 2048 x 18\. One row from this dataset plots the y-values observed in Fig. 2\.
+-   `spectra.csv`: Each spectrum is a 2048 x 1 vector that represents the measured amplitude of a given metabolite at a given chemical shift for a single subject. There are 18 vectors for a total array size of 2048 x 18. These vectors represent the spectra for 9 individuals, all at the same voxel position with samples at two time points. The arrangement is such that `spectra[:,0]` and `spectra[:,1]` belong to **Subject00** at **t0** and **t1** respectively, `spectra[:,2]` and `spectra[:,3]`belong to **Subject01** at **t0** and **t1**, etc.
 -   `chemical_shifts.csv`: All spectra from spectra.csv align with this 2048 x 1 vector that indicates the chemical shift (x-axis in Fig. 2). The chemical shifts of metabolites are usually referenced to Phosphocreatine (PCr) as an internal standard at 0.0 ppm.
 
 For a bit more background on 31P-MRS, \[9\] and \[10\] provide a friendly
