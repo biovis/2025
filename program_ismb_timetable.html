@@ -1,541 +1,517 @@
-<p>All times listed are in EDT.</p>
+<p>All times listed are in BST.</p>
+
+<style>
+    .scheduledetails .abstract:not(:first-child) {
+        margin-top: 1.5em;
+    }
+</style>
 
 <div class="row schedulerow">
-    <div class="timeSpans"> 10:40-10:45 </div>
-    <div class="scheduledetails">
+    <div class="col-md-3 timeSpans"> 8:40-8:45 </div>
+    <div class="col-md-9 scheduledetails">
         <div class="talk-title">
             <strong>Opening</strong>
         </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Jan Byška</span> </li>
-                <li><span class="speaker">Qianwen Wang</span> </li>
-            </ul>
+        <ul class="authorsList">
+            <li><span class="speaker">Qianwen Wang, Zeynep Gumus</span> </li>
+        </ul>
+    </div>
+</div>
+<div class="row schedulerow">
+    <div class="col-md-3 timeSpans"> 8:45-9:40 </div>
+    <div class="col-md-9 scheduledetails">
+        <div class="talk-title">
+            <strong>Invited Presentation: The Visual Genome: An attempt to classify multi-omics
+                visualization</strong>
+        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Kay Nieselt</span> </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> Over the past decades, advances in biology and medicine—driven by high-throughput and
+                high-resolution experimental methods—have underscored the critical role of visualization in
+                interpreting and communicating complex biological data. The interplay between life sciences and the
+                visualization domain has revealed a deep and natural synergy, where visual analytics has become
+                indispensable for discovery and insight.<br>
+                In this talk, I will reflect on nearly 30 years of experience in developing visual analytics
+                solutions for large-scale biological data, with a particular focus on multi-omics visualization. I
+                will present a conceptual framework for classifying multi-omics visualizations and illustrate it
+                through selected examples from tools developed by my research group. These range from genome-level
+                visualizations to tools for exploring quantitative omics and epiproteomics data.</p>
+            <p>I will also introduce TueVis (https://tuevis.cs.uni-tuebingen.de), a web-based resource developed
+                and maintained by my group, offering interactive, user-friendly visualization tools spanning
+                multiple omics layers. Designed for researchers in bioinformatics and the life sciences, TueVis aims
+                to lower the barrier to high-quality data exploration and interpretation.</p>
+            <p>The talk will conclude with a perspective on emerging challenges and opportunities in the evolving
+                field of multi-omics visualization. </p>
         </div>
     </div>
 </div>
-
 <div class="row schedulerow">
-    <div class="timeSpans"> 10:45-11:40 </div>
-    <div class="scheduledetails">
+    <div class="col-md-3 timeSpans"> 9:40-10:00 </div>
+    <div class="col-md-9 scheduledetails">
         <div class="talk-title">
-            <strong>Invited Presentation: When Visualization Meets AI: Exploring Opportunities</strong>
+            <strong>GENET: AI-Powered Interactive Visualization Workflows to Explore Biomedical Entity
+                Networks</strong>
         </div>
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Jan Byška
+        <ul class="authorsList">
+            <li><span class="speaker">Bum Chul Kwon</span>, IBM Research, United States </li>
+            <li>Natasha Mulligan, IBM Research, Ireland </li>
+            <li>Joao Bettencourt-Silva, IBM Research, Ireland </li>
+            <li>Ta-Hsin Li, IBM Research, United States </li>
+            <li>Bharath Dandala, IBM Research, United States </li>
+            <li>Feng Lin, Cleveland Clinic, United States </li>
+            <li>Pablo Meyer, IBM Research, United States </li>
+            <li>Ching-Huei Tsou, IBM Research, United States </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> Formulating experimental hypotheses that test the association between SNPs and diseases involves
+                logical reasoning derived from prior observations, followed by the labor-intensive process of
+                collecting and analyzing relevant literature to test the scientific plausibility and viability. AI
+                models trained with previous association data (e.g., GWAS Catalog) can help infer potential
+                associations between SNPs and diseases, but scientists still need to manually collect and inspect
+                the evidence for such predictions from prior literature. To alleviate this burden, we introduce an
+                AI-enhanced, end-to-end visual analytics workflow called GENET, which aims to help scientists
+                discover the SNP-Target associations, collect evidence from scientific literature, extract knowledge
+                as biomedical entity networks, and interactively explore them using visualizations. The workflow
+                consists of the following four steps, where each step’s output serves as the input for the next
+                step: 1) biomedical network analysis: identify interesting genes/SNPs that are associated with a
+                target disease through indirectly connected genes/SNPs using a neural network; 2) literature
+                evidence mining pipeline: collect relevant literature on the target diseases or the infered
+                genes/SNPs, and extract biomedical entities and their relations from the collection using large
+                language models; 3) clustering: cluster the extracted entities and relations by generating the
+                embeddings using pre-trained biomedical language models (e.g., BioBERT, BioLinkBERT); 4) interactive
+                visualizations: visualize the clusters of biomedical entities and their networks and provide
+                interactive handles for exploration. The workflow enables users to iteratively formulate and test
+                hypotheses involving SNPs/genes and diseases against evidence from scientific literature and
+                databases and gain novel insights. </p>
         </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Melanie Tory</span>, The Roux Institute, Northeastern University </li>
-            </ul>
+    </div>
+</div>
+<div class="row schedulerow">
+    <div class="col-md-3 timeSpans"> 11:20-11:40 </div>
+    <div class="col-md-9 scheduledetails">
+        <div class="talk-title">
+            <strong>Prostruc: an open-source tool for 3D structure prediction using homology modeling</strong>
         </div>
+        <ul class="authorsList">
+            <li>Shivani Pawar, Department of Biotechnology and Bioinformatics, Deogiri College, Auranagabad,
+                Maharashtra, India </li>
+            <li>Wilson Sena Kwaku Banini, Department of Theoretical and Applied Biology, Kwame Nkrumah
+                University of Science and Technology, Ghana </li>
+            <li>Musa Muhammad Shamsuddeen, Department of Public Health, Faculty of Health Sciences, National
+                Open University of Nigeria, Abuja, Nigeria </li>
+            <li>Toheeb A Jumah, School of Collective Intelligence, University Mohammed VI Polytechnic, Rabat,
+                Morocco </li>
+            <li>Nigel N O Dolling, Department of Parasitology, Noguchi Memorial Institute for Medical Research,
+                University of Ghana, Accra, Ghana </li>
+            <li>Abdulwasiu Tiamiyu, School of Collective Intelligence, University Mohammed VI Polytechnic,
+                Rabat, Morocco </li>
+            <li><span class="speaker">Olaitan I. Awe</span>, African Society for Bioinformatics and
+                Computational Biology, Cape Town, South Africa </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> Homology modeling is a widely used computational technique for predicting the three-dimensional (3D)
+                structures of proteins based on known templates,evolutionary relationships to provide structural
+                insights critical for understanding protein function, interactions, and potential therapeutic
+                targets. However, existing tools often require significant expertise and computational resources,
+                presenting a barrier for many researchers.</p>
+            <p>Prostruc is a Python-based homology modeling tool designed to simplify protein structure prediction
+                through an intuitive, automated pipeline. Integrating Biopython for sequence alignment, BLAST for
+                template identification, and ProMod3 for structure generation, Prostruc streamlines complex
+                workflows into a user-friendly interface. The tool enables researchers to input protein sequences,
+                identify homologous templates from databases such as the Protein Data Bank (PDB), and generate
+                high-quality 3D structures with minimal computational expertise. Prostruc implements a two-stage
+                vSquarealidation process: first, it uses TM-align for structural comparison, assessing Root Mean
+                Deviations (RMSD) and TM scores against reference models. Second, it evaluates model quality via
+                QMEANDisCo to ensure high accuracy.</p>
+            <p>The top five models are selected based on these metrics and provided to the user. Prostruc stands
+                out by offering scalability, flexibility, and ease of use. It is accessible via a cloud-based web
+                interface or as a Python package for local use, ensuring adaptability across research environments.
+                Benchmarking against existing tools like SWISS-MODEL,I-TASSER and Phyre2 demonstrates Prostruc's
+                competitive performance in terms of structural accuracy and job runtime, while its open-source
+                nature encourages community-driven innovation.</p>
+            <p>Prostruc is positioned as a significant advancement in homology modeling, making high-quality
+                protein structure prediction more accessible to the scientific community. </p>
+        </div>
+    </div>
+</div>
+<div class="row schedulerow">
+    <div class="col-md-3 timeSpans"> 11:40-12:00 </div>
+    <div class="col-md-9 scheduledetails">
+        <div class="talk-title">
+            <strong>Automatic Generation of Natural Language Descriptions of Genomics Data Visualizations for
+                Accessibility and Machine Learning</strong>
+        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Thomas C. Smits</span>, Harvard Medical School, MA, USA, United States
+            </li>
+            <li>Sehi L'Yi, Harvard Medical School, MA, USA, United States </li>
+            <li>Andrew P. Mar, University of California, Berkeley, USA, United States </li>
+            <li>Nils Gehlenborg, Harvard Medical School, MA, USA, United States </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> Availability of multimodal representations, i.e., visual and textual, is crucial for both
+                information accessibility and construction of retrieval systems and machine learning (ML) models.
+                Interactive data visualizations, omnipresent in data analysis tools and data portals, are key to
+                accessing biomedical knowledge and detecting patterns in large datasets. However, large-scale ML
+                models for generating descriptions of visualizations are limited and cannot handle the complexity of
+                data and visualizations in fields like genomics. Generating accurate descriptions of complex
+                interactive genomics visualizations remains an open challenge. This limits both access for blind and
+                visually impaired users, and the development of multimodal datasets for ML applications.
+                Grammar-based visualizations offer a unique opportunity. Since specifications of visualization
+                grammars contain structured information about visualizations, they can be used to generate text
+                directly, rather than interpreting the rendered visualization, potentially resulting in more precise
+                descriptions.</p>
+            <p>
+                We present AltGosling, an automated description generation tool focused on interactive
+                visualizations of genome-mapped data, created with grammar-based toolkit Gosling. AltGosling uses a
+                logic-based algorithm to create descriptions in various forms, including a tree-structured navigable
+                panel for keyboard accessibility, and visualization-text pairs for ML training. We show that
+                AltGosling outperforms state-of-the-art large language models and image-based neural networks for
+                text generation of genomics data visualizations. AltGosling was adopted in our follow-up study to
+                construct a retrieval system for genomics visualizations combining different modalities
+                (specification, image, and text). As a first in genomics research, we lay the groundwork for
+                building multimodal resources, improving accessibility, and enabling integration of biomedical
+                visualizations and ML.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="row schedulerow">
+    <div class="col-md-3 timeSpans"> 12:00-12:20 </div>
+    <div class="col-md-9 scheduledetails">
+        <div class="talk-title">
+            <strong>Can LLMs Bridge Domain and Visualization? A Case Study onHigh-Dimension Data Visualization in
+                Single-Cell Transcriptomics</strong>
+        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Qianwen Wang</span>, University of Minnesota, United States </li>
+            <li>Xinyi Liu, University of Northeastern, United States </li>
+            <li>Nils Gehlenborg, Harvard Medical School, United States </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> While many visualizations are built for domain users (biologists), understanding how visualizations
+                are used in the domain has long been a challenging task. Previous research has relied on either
+                interviewing a limited number of domain users or reviewing relevant application papers in the
+                visualization community, neither of which provides comprehensive insight into visualizations in the
+                wild of a specific domain. This paper aims to fill this gap by examining the potential of using
+                Large Language Models (LLM) to analyze visualization usage in domain literature. We use
+                high-dimension (HD) data visualization in sing-cell transcriptomics as a test case, analyzing 1,203
+                papers that describe 2,056 HD visualizations with highly specialized domain terminologies (e.g.,
+                biomarkers, cell lineage). To facilitate this analysis, we introduce a human-in-the-loop LLM
+                workflow that can effectively analyze a large collection of papers and translate domain-specific
+                terminology into standardized data and task abstractions. Instead of relying solely on LLMs for
+                end-to-end analysis, our workflow enhances analytical quality through 1) integrating image
+                processing and traditional NLP methods to prepare well-structured inputs for three targeted LLM
+                subtasks (\ie, translating domain terminology, summarizing analysis tasks, and performing
+                categorization), and 2) establishing checkpoints for human involvement and validation throughout the
+                process.</p>
+            <p>
+                The analysis results, validated with expert interviews and a test set, revealed three often
+                overlooked aspects in HD visualization: trajectories in HD spaces, inter-cluster relationships, and
+                dimension clustering.</p>
+            <p>This research provides a stepping stone for future studies seeking to use LLMs to bridge the gap
+                between visualization design and domain-specific usage. </p>
+        </div>
+    </div>
+</div>
+<div class="row schedulerow">
+    <div class="col-md-3 timeSpans"> 12:20-12:40 </div>
+    <div class="col-md-9 scheduledetails">
+        <div class="talk-title">
+            <strong>ClusterChirp: A GPU-Accelerated Web Platform for AI-Supported Interactive Exploration of
+                High-Dimensional Omics Data</strong>
+        </div>
+        <ul class="authorsList">
+            <li>Osho Rawal, Icahn School Of Medicine At Mount Sinai, United States </li>
+            <li>Edgar Gonzalez-Kozlova, Icahn School Of Medicine At Mount Sinai, United States </li>
+            <li>Sacha Gnjatic, Icahn School Of Medicine At Mount Sinai, United States </li>
+            <li><span class="speaker">Zeynep H. Gümüş</span>, Icahn School Of Medicine At Mount Sinai, United
+                States </li>
+        </ul>
         <p>
             <strong>Presentation Overview:</strong> <a class="showToggle3">Hide</a>
         </p>
-        <div style="display:block;">
-            <p>Visualization and AI are increasingly intertwined. AI is being employed to enhance visualization design
-                and to simplify interaction with data. Meanwhile, visualization can help people interpret and debug AI
-                models, whether they are AI modelers or end users. Yet opportunities at the intersection of AI and
-                visualization are in their infancy. This talk will explore the opportunity space in two directions:
-                AI-for-VIS and VIS-for-AI, drawing on existing examples including my own research on natural language
-                interaction, visualization recommendations, and medical applications.</p>
+        <div style="display: none">
+            <p> Modern omics technologies generate high-dimensional datasets that overwhelm traditional
+                visualization tools, requiring computational tradeoffs that risk losing important patterns.
+                Researchers without computational expertise face additional barriers when tools demand specialized
+                syntax or command-line proficiency, while connecting visual patterns to biological meaning typically
+                requires manual navigation across platforms. To address these challenges, we developed ClusterChirp,
+                a GPU-accelerated web platform for real-time exploration of data matrices containing up to 10
+                million values. The platform leverages deck.gl for hardware-accelerated rendering and optimized
+                multi-threaded clustering algorithms that significantly outperform conventional methods. Its
+                intuitive interface features interactive heatmaps and correlation networks that visualize
+                relationships between biomarkers, with capabilities to dynamically cluster or sort data by various
+                metrics, search for specific biomarkers, and adjust visualization parameters. Uniquely, ClusterChirp
+                includes a natural language interface powered by an Artificial Intelligence (AI)-supported Large
+                Language Model (LLM), enabling interactions through conversational commands. The platform connects
+                with biological knowledge-bases for pathway and ontology enrichment analyses. ClusterChirp is being
+                developed through iterative feedback from domain experts while adhering to FAIR principles, and will
+                be freely available upon publication. By uniting performance, usability, and biological context,
+                ClusterChirp empowers researchers to extract meaningful insights from complex omics data with
+                unprecedented ease. </p>
         </div>
     </div>
 </div>
 <div class="row schedulerow">
-    <div class="timeSpans"> 11:40-12:00 </div>
-    <div class="scheduledetails">
+    <div class="col-md-3 timeSpans"> 12:40-13:00 </div>
+    <div class="col-md-9 scheduledetails">
         <div class="talk-title">
-            <strong>PRIMAVO: Precision Immune Monitoring Assay Visualization Online</strong>
+            <strong>Sketch, capture and layout Phylogenies</strong>
         </div>
-
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Jan Byška
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li>Osho Rawal, Icahn School Of Medicine At Mount Sinai, United States </li>
-                <li>Edgar Gonzalez-Kozlova, Icahn School Of Medicine At Mount Sinai, United States </li>
-                <li>Sacha Gnjatic, Icahn School Of Medicine At Mount Sinai, United States </li>
-                <li><span class="speaker">Zeynep H. Gümüş</span>, Icahn School Of Medicine At Mount Sinai, United
-                    States </li>
-            </ul>
-        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Daniel Huson</span>, University of Tuebingen, Germany </li>
+        </ul>
         <p>
             <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
         </p>
         <div style="display:none;">
-            <p> Cancer immunotherapies are revolutionizing clinical practice, yet only a fraction of patients derive
-                clinical benefit, and some experience adverse events. To understand immune markers that impact
-                clinical care, comprehensive data analyses across assay types and patient cohorts are being
-                performed by NCI-supported Cancer Immune Monitoring and Analysis Centers (CIMACs) and Cancer
-                Immunology Data Commons (CIDC). These represent 30+ cancer immunotherapy trials with longitudinal
-                correlative data assayed using harmonized technology platforms. However, there is an unmet need for
-                visual exploration of multi-scale multi-omic datasets. We introduce PRIMAVO, a unified platform that
-                empowers users to visually explore, query, and subset the results of large-scale immune monitoring
-                multi-omics datasets, spanning transcriptomics, proteomics, genomics, metagenomics, and multiplex
-                immunohistochemistry (mIHC). Users can select specific clinical trials and patient subgroups based
-                on key criteria including demographics, tumor, treatment, response and assay characteristics by
-                leveraging interactive bar plots, pie charts, and scatter plots. For user-specified subgroups,
-                PRIMAVO offers tailored visualizations of their multi-assay datasets: CyTOF, Olink, serology and
-                RNA-seq data are represented within interactive heatmaps with on-the-fly filtering, querying,
-                sorting and clustering. From mIHC imaging data, user-selected cell subsets and multiple markers can
-                be explored simultaneously. Interactive oncoprints visually summarize genomic mutations. Developed
-                in direct collaboration with CIMAC-CIDC scientists and utilizing React, TypeScript, Python, and
-                Django frameworks, PRIMAVO provides domain-specific, downloadable, resizable, zoomable, and
-                scrollable charts and figures. Overall, PRIMAVO lowers barriers between complex immune monitoring
-                data in immunotherapy trials and researchers by providing intuitive, fast, and high-quality access
-                to longitudinal multi-scale multi-omics datasets, facilitating research capabilities. </p>
+            <p> Phylogenetic trees and networks play a central role in biology, bioinformatics, and mathematical
+                biology, and producing clear, informative visualizations of them is an important task. We present
+                new algorithms for visualizing rooted phylogenetic networks as either combining or transfer
+                networks, in both cladogram and phylogram style. In addition, we introduce a layout algorithm that
+                aims to improve clarity by minimizing the total stretch of reticulate edges. To address the common
+                issue that biological publications often omit machine-readable representations of depicted trees and
+                networks, we also provide an image-based algorithm for extracting their topology from figures. All
+                algorithms are implemented in our new PhyloSketch app, which is open source and freely available
+                at: https://github.com/husonlab/phylosketch2. </p>
+        </div>
+        <div class="talk-title">
+            <strong>PhageExpressionAtlas - a comprehensive transcriptional atlas of phage infections of
+                bacteria</strong>
+        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Maik Wolfram-Schauerte</span>, University of Tübingen, Institute for
+                Bioinformatics and Medical Informatics, Germany </li>
+            <li>Caroline Trust, University of Tübingen, Institute for Bioinformatics and Medical Informatics,
+                Germany </li>
+            <li>Nils Waffenschmidt, University of Tübingen, Institute for Bioinformatics and Medical
+                Informatics, Germany </li>
+            <li>Kay Nieselt, University of Tübingen, Institute for Bioinformatics and Medical Informatics,
+                Germany </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> Bacteriophages (phages) are bacterial viruses that infect and lyse their hosts. Phages shape
+                microbial ecosystems and have contributed essential tools for biotechnology and applications in
+                medical research. Their enzymes, takeover mechanisms, and interactions with their bacterial hosts
+                are increasingly relevant, especially as phage therapy emerges to combat antibiotic resistances.</p>
+            <p>Therefore, a thorough understanding of phage-host interactions, especially on the transcriptional
+                level, is key to unlocking their full potential. Dual RNA sequencing (RNA-seq) enables such insight
+                by capturing gene expression in both phages and hosts across infection stages. While individual
+                studies have revealed host responses and phage takeover strategies, comprehensive and systematic
+                analyses remain scarce.</p>
+            <p>To fill this gap, we present the PhageExpressionAtlas, the first interactive resource for exploring
+                phage-host interactions at the transcriptome level. We developed a unified analysis pipeline to
+                process over 20 public dual RNA-seq datasets, covering diverse phage-host systems, including
+                therapeutic and model phages infecting ESKAPE pathogens like Staphylococcus aureus and Pseudomonas
+                aeruginosa. Users can visualize gene expression across infection phases, download datasets, and
+                classify phage genes as early, middle, or late expressed using customizable criteria. Expression
+                data can be explored via heat maps, profile plots, and in genome context, aiding functional gene
+                characterization and phage genome analysis.</p>
+            <p>The PhageExpressionAtlas will continue to grow, integrating new datasets and features, including
+                cross-phage/host comparisons and host transcriptome architecture analysis. We envision the
+                PhageExpressionAtlas to become a central resource for the phage research community, fostering
+                data-driven insights and interdisciplinary collaboration. The resource is available at
+                phageexpressionatlas.cs.uni-tuebingen.de. </p>
         </div>
     </div>
 </div>
 <div class="row schedulerow">
-    <div class="timeSpans"> 12:00-12:20 </div>
-    <div class="scheduledetails">
+    <div class="col-md-3 timeSpans"> 14:00-14:40 </div>
+    <div class="col-md-9 scheduledetails">
         <div class="talk-title">
-            <strong>The Best of Both Worlds: Blending Mixed Reality and 2D displays in an Hybrid Approach for Visual
-                analysis of 3D Tissue Maps</strong>
+            <strong>SEAL: Spatially-resolved Embedding Analysis with Linked Imaging Data</strong>
         </div>
-
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Jan Byška
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Eric Mörth</span>, Harvard Medical School, United States </li>
-                <li>Cydney Nielsen, Independent Consultant, Canada </li>
-                <li>Morgan Turner, Harvard Medical School, United States </li>
-                <li>Liu Xianhao, Harvard University, United States </li>
-                <li>Mark S. Keller, Harvard Medical School, United States </li>
-                <li>Johanna Beyer, Harvard University, United States </li>
-                <li>Hanspeter Pfister, Harvard University, United States </li>
-                <li>Zhu-Tian Chen, Harvard University and University of Minnesota, United States </li>
-                <li>Nils Gehlenborg, Harvard Medical School, United States </li>
-            </ul>
-        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Simon Warchol</span>, Harvard School of Engineering and Applied Sciences,
+                Laboratory of Systems Pharmacology, Harvard Medical School, United States </li>
+            <li>Grace Guo, Harvard School of Engineering and Applied Sciences, Laboratory of Systems
+                Pharmacology, Harvard Medical School, United States </li>
+            <li>Johannes Knittel, Harvard John A. Paulson School of Engineering and Applied Sciences, United
+                States </li>
+            <li>Dan Freeman, Laboratory of Systems Pharmacology, Harvard Medical School, United States </li>
+            <li>Usha Bhalla, Harvard John A. Paulson School of Engineering and Applied Sciences, United States
+            </li>
+            <li>Jeremy Muhlich, Laboratory of Systems Pharmacology, Harvard Medical School, United States </li>
+            <li>Peter K Sorger, Laboratory of Systems Pharmacology, Harvard Medical School, United States </li>
+            <li>Hanspeter Pfister, Harvard John A. Paulson School of Engineering and Applied Sciences, United
+                States </li>
+        </ul>
         <p>
             <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
         </p>
         <div style="display:none;">
-            <p> We introduce a novel hybrid system that combines a Mixed Reality (MR) stereoscopic view of 3D
-                spatial data with linked views on a conventional 2D display. Our system addresses visualization
-                challenges in spatial biology, focused on examining molecular components within a tissue’s native
-                spatial context, resulting in complex and high-resolution 3D tissue maps. Given the diversity of
-                techniques generating these maps, creating practical visualization tools is crucial. To tackle this,
-                we collaborated closely with experts in spatial biology throughout the design process, conducting
-                iterative development and testing through three case studies. The case studies include 1)
-                single-cell cyclic immunofluorescence (CyCIF) imaging to investigate early melanoma development; 2)
-                lightsheet microscopy of kidney tissue to understand the function of glomeruli, showcasing the
-                insights gained into spatial relationships within kidney structures; and 3) multiplexed
-                immunofluorescence imaging (MxIF) was used to study various structures in kidney tissue,
-                highlighting the benefits of the hybrid approach in controlling channel information and conducting
-                distance measurements. In extending the web-based Vitessce (http://vitessce.io) framework for
-                single-cell analysis, a tool already familiar to domain experts, with a WebXR spatial view, we
-                ensured usability and integration with existing workflows. A qualitative evaluation of our prototype
-                demonstrated widespread recognition of the hybrid system's value, even among those initially
-                skeptical of MR technology. Insights gathered from user feedback sessions strongly advocate for
-                combining direct hand interaction in MR with traditional mouse input on a 2D display, highlighting
-                the effectiveness of this approach in enhancing user experience and interaction with complex spatial
-                data. </p>
+            <p> Dimensionality reduction techniques help analysts interpret complex, high-dimensional spatial
+                datasets by projecting data attributes into two-dimensional space. For instance, when investigating
+                multiplexed tissue imaging, these techniques help researchers identify and differentiate cell types
+                and states. However, they abstract away crucial spatial, positional, and morphological contexts,
+                complicating interpretation and limiting deeper biological insights. To address these limitations,
+                we present SEAL, an interactive visual analytics system designed to bridge the gap between abstract
+                2D embeddings and their rich spatial imaging context. SEAL introduces a novel hybrid-embedding
+                visualization that preserves morphological and positional information while integrating critical
+                high-dimensional feature data. By adapting set visualization methods, SEAL allows analysts to
+                identify, visualize, and compare selections—defined manually or algorithmically—in both the
+                embedding and original spatial views, enabling richer interpretation of the spatial arrangement and
+                morphological characteristics of entities of interest. To elucidate differences between selected
+                sets, SEAL employs a scalable surrogate model to calculate feature importance scores, identifying
+                the most influential features governing the position of objects within embeddings. These importance
+                scores are visually summarized across selections, with mathematical set operations enabling detailed
+                comparative analyses. We demonstrate SEAL’s effectiveness through two case studies with cancer
+                researchers: colorectal cancer analysis with a pharmacologist and melanoma investigation with a cell
+                biologist. We then illustrate broader cross-domain applicability by exploring multispectral
+                astronomical imaging data with an astronomer. Implemented as a standalone tool or integrated
+                seamlessly with computational notebooks, SEAL provides an interactive platform for spatially
+                informed exploration of high-dimensional datasets, significantly enhancing interpretability and
+                insight generation. </p>
         </div>
-    </div>
-</div>
-<div class="row schedulerow">
-    <div class="timeSpans"> 14:20-15:20 </div>
-    <div class="scheduledetails">
+
         <div class="talk-title">
-            <strong>Understanding Visualization Authoring for Genomics Data through User Interviews</strong>
+            <strong>Nightingale - A collection of web components for visualizing protein related data</strong>
         </div>
 
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Zeynep Gümüş
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li>Astrid van den Brandt, Eindhoven University of Technology, Netherlands </li>
-                <li><span class="speaker">Sehi L'Yi</span>, Harvard Medical School, United States </li>
-                <li>Huyen N. Nguyen, Harvard Medical School, United States </li>
-                <li>Etowah Adams, Harvard Medical School, United States </li>
-                <li>Nils Gehlenborg, Harvard Medical School, United States </li>
-            </ul>
-        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Swaathi Kandasaamy</span>, UniProt - EMBL-EBI, United Kingdom </li>
+            <li>Daniel Rice, UniProt - EMBL-EBI, United Kingdom </li>
+            <li>Aurélien Luciani, UniProt - EMBL-EBI, United Kingdom </li>
+            <li>Adam Midlik, PDBe - EMBL-EBI, United Kingdom </li>
+            <li>Maria Martin, UniProt - EMBL-EBI, United Kingdom </li>
+        </ul>
         <p>
             <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
         </p>
         <div style="display:none;">
-            <p> Genomics experts use data visualization to extract and share insights from complex and large-scale
-                data sets. The complexity of genomics data analysis, the diversity of users, and the scope of
-                questions necessitate tools that support creating customized visualizations beyond off-the-shelf
-                visualizations for exploratory analysis. Despite a good understanding of visualization use for
-                genomics data exploration, research into these experts' specific authoring needs is limited.
-                Previous work in visualization research has explored various interactive authoring techniques—such
-                as template editing, shelf configuration, natural language input, and code editors—assessing their
-                usefulness and the trade-offs between expressiveness and learnability, primarily for statistical
-                visualizations. However, how genomics experts currently author visualizations and which techniques
-                best meet their needs remains unclear. To bridge this gap in understanding, we conducted two
-                connected user studies involving 33 genomics experts. The first consisted of semi-structured
-                interviews (n=20) to understand current visualization authoring practices, followed by exploratory
-                sessions with visual design probes (n=13) to gain insights about user intents and desired techniques
-                beyond the currently supported. We identified key tasks, user characteristics, and current
-                techniques used in tools, and discovered five personas to represent and discuss author diversity. By
-                integrating insights from interviews and exploratory sessions, we further pinpointed task- and
-                persona-specific patterns and used these to discuss design implications for genomics visualization
-                tools. Our findings highlight the need for visualization tools supporting multiple authoring
-                techniques to enhance both learnability and expressiveness, catering to the varied needs of users
-                aiming to create highly customized genomics data visualizations. </p>
-        </div>
-        <div class="talk-title">
-            <strong>New BioCyc Visualization Tools for Genome Exploration and Comparison</strong>
-        </div>
-
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Zeynep Gümüş
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Suzanne Paley</span>, SRI International, United States </li>
-                <li>Markus Krummenacker, SRI International, United States </li>
-                <li>James Herson, SRI International, United States </li>
-                <li>Peter Karp, SRI International, United States </li>
-            </ul>
-        </div>
-        <p>
-            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
-        </p>
-        <div style="display:none;">
-            <p> We introduce two new BioCyc visualization tools for exploring genomes, with the goal of accelerating
-                science by helping users to rapidly navigate and understand complex biological systems.
-
-                The Genome Explorer is an information-dense genome browser with high-speed semantic zooming. As
-                magnification level increases, features such as promoters, transcription-factor binding sites, and
-                nucleotide and amino-acid sequences become visible. By displaying such features inline, positional
-                relationships are easy to discern visually, and the display can wrap across multiple lines to
-                present a longer genome region in a single screen, providing greater genomic context. A comparative
-                mode displays chromosomes from multiple organisms aligned at orthologous genes. The Genome Explorer
-                includes the capability to select arbitrary sequence regions for export, and provides a tracks
-                mechanism for depicting large-scale datasets against the genome.
-
-                The Comparative Genome Dashboard summarizes and compares predicted functional capabilities across a
-                selected set of organisms, utilizing a hierarchical framework of cellular function based on selected
-                concepts from MetaCyc and GO. Users begin with a one-screen overview consisting of a set of panels
-                for high-level functions such as Biosynthesis, Transport or Central Dogma, with individual plots for
-                subsystems such as Carbohydrate Biosynthesis or DNA Metabolism. Each plot graphs either the numbers
-                of relevant compounds predicted to be synthesized/degraded/transported based on pathway prediction
-                algorithms or the numbers of genes annotated to that subsystem. Users can click on any plot for more
-                detailed comparisons of specific synthesized/degraded/transported compounds or GO annotations, and
-                thereby rapidly explore specific subsystems of interest.
+            <p> Nightingale is an open-source web visualization library for rendering protein-related data including
+                domains, sites, variants, structures, and interactions using reusable web components. It employs a
+                track-based approach, where sequences are represented horizontally, and multiple tracks can be
+                stacked vertically to visualize different annotations at the same position, aiding in the discovery
+                of relationships across annotations. This intuitive approach enhances the exploration and
+                interpretation of complex biological data. It leverages the HTML5 Canvas API for improved
+                performance, handling large datasets efficiently in the most used tracks, while still using SVG as a
+                layer on top of canvas for interactivity which is not critical for performance. </p>
+            <p>
+                It is a collaborative effort by UniProt, InterPro, and PDBe to provide a unified set of components
+                for their websites, including UniProt’s ProtVista, while allowing flexibility for specific needs. As
+                a collection of standard web components, Nightingale integrates seamlessly into any web application,
+                ensuring compatibility with various frameworks and libraries. It utilizes standard DOM event
+                propagation and attribute-based communication to facilitate interoperability between Nightingale
+                components and other web components, irrespective of their internal implementation details. As an
+                evolving platform, we aim to engage with parallel visualization projects to identify and promote
+                best practices in the application of web standards, with a focus on advancing the adoption and
+                integration of web components within the domain of biological data visualization.
             </p>
         </div>
         <div class="talk-title">
-            <strong>Matreex: compact and interactive visualisation of large gene families</strong>
+            <strong>A Multimodal Search and Authoring System for Genomics Data Visualizations</strong>
         </div>
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Zeynep Gümüş
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li>Victor Rossier, Department of Computational Biology and Department of Ecology and Evolution,
-                    University of Lausanne, Switzerland </li>
-                <li>Clément Marie Train, Université de Lausanne, Switzerland </li>
-                <li><span class="speaker">Yannis Nevers</span>, Université de Lausanne, Switzerland </li>
-                <li>Marc Robinson-Rechavi, Université de Lausanne, Switzerland </li>
-                <li>Christophe Dessimoz, Université de Lausanne, Switzerland </li>
-            </ul>
-        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Huyen N. Nguyen</span>, Harvard Medical School, United States </li>
+            <li>Sehi L'Yi, Harvard Medical School, United States </li>
+            <li>Thomas C. Smits, Harvard Medical School, United States </li>
+            <li>Shanghua Gao, Harvard Medical School, United States </li>
+            <li>Marinka Zitnik, Harvard Medical School, United States </li>
+            <li>Nils Gehlenborg, Harvard Medical School, United States </li>
+        </ul>
         <p>
             <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
         </p>
         <div style="display:none;">
-            <p> Studying gene family evolution strongly benefits from insightful visualisations. However, the
-                ever-growing number of sequenced genomes is leading to increasingly larger gene families, which
-                challenges existing gene tree visualisations. Indeed, most of them present users with a dilemma: to
-                display complete but intractable gene trees, or collapse subtrees, thereby hiding information.
-
-                We developed Matreex, a new dynamic tool to scale-up the visualisation of gene families. Matreex’s
-                key novelty is the use of “phylogenetic” profiles, i.e. condensed representation of gene
-                repertoires, to minimize information losses when collapsing branches of the gene tree. Moreover, the
-                gene tree is paired with a complementary interactive species tree which facilitates manipulation and
-                exploration of large, heavily duplicated gene families.
-
-                Matreex is user-friendly and provides an appealing and intuitive display which makes it ideal for
-                creating easily interpretable figures for teaching and outreach. It can also be used to automate
-                large-scale analyses of presence-absence of multiple gene families. For example, we used it to
-                simultaneously display 22 gene families involved in intraflagellar transport across 622 species,
-                cumulating 5,500 genes in a compact way. Doing this, we were able to report for the first time
-                complete loss of the intraflagellar transport machinery in the myxozoan Thelohanellus kitaue.
-
-                Matreex is available on the Python Package Index (pip install matreex), and source code and
-                documentation are available at https://github.com/DessimozLab/matreex.
+            <p> We present a database system for retrieving interactive genomics visualizations through multimodal
+                search capabilities. Our system offers users flexibility through three query methods: example
+                images, natural language, or grammar-based queries, via a user interface. For each visualization in
+                our database, we generate three complementary representations: a declarative specification using the
+                Gosling visualization grammar, a pixel-based image, and a natural language description. To support
+                investigation of multiple embeddings and retrieval strategies, we implement three embedding methods
+                that capture different aspects of these visualizations: (1) Context-free grammar embeddings
+                specifically designed for genomics visualizations, addressing specialized features like genomic
+                tracks, views, and interactivity, (2) Multimodal embeddings derived from a state-of-the-art
+                biomedical vision-language foundation model, and (3) Textual embeddings generated by our fine-tuned
+                specification-to-text large language model. We evaluated the proposed embedding strategies across
+                different modality variations using top-k retrieval accuracy. Notably, our findings demonstrate that
+                context-free grammar embedding approaches achieve comparable retrieval results with lower
+                computational demands. Our current collection contains over three thousand visualization examples
+                spanning approximately 50 categories, from basic to scalable encodings, from single- to coordinated
+                multi-view visualizations, supporting diverse genomics applications including gene annotations and
+                single-cell epigenomics analysis. Retrieved visualizations serve as ready-to-use scaffolds for
+                authoring: they are templates that users can modify with their data and customize to their visual
+                preferences. This approach provides researchers with reusable examples, allowing them to concentrate
+                on meaningful data analysis and interpretation instead of the technicalities of building
+                visualizations from scratch. </p>
+        </div>
+        <div class="talk-title">
+            <strong>Tersect Browser: characterising introgressions through interactive visualisation of large
+                numbers of resequenced genomes</strong>
+        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Tomasz Kurowski</span>, Cranfield University, United Kingdom </li>
+            <li>Fady Mohareb, Cranfield University, United Kingdom </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> Introgressive hybridisation has long been a major source of genetic variation in plant genomes, and
+                the ability to precisely identify and delimit intervals of DNA originating from wild species or
+                cultivars of interest is of great importance to both researchers seeking insights into the evolution
+                and breeding of crops, and to plant breeders seeking to protect their intellectual property. The low
+                cost of genome resequencing and the public availability of large sets of resequenced genomes for
+                many species of commercial importance, as well as for their wild relatives, have made it possible to
+                reliably characterise the origins of specific genomic intervals. However, such analyses are often
+                hampered by the same large volume of data that enables them. They generally take a long time to
+                execute, and their results are difficult to visualise in an easily explorable manner.</p>
+            <p>We present Tersect Browser, a Web-based tool that leverages a novel, multi-tier indexing and
+                pre-calculation scheme to allow biologists to explore the relationships between large sets of
+                resequenced genomes in a fully interactive fashion. Users have the option to freely adjust interval
+                size and resolution while navigating through detailed genetic distance heatmaps and phylogenies for
+                genomes and regions of interest, smoothly zooming in and out depending on the needs of their
+                exploratory data analysis, aided by extendable plugins and annotations. Results and visualisations
+                can also be shared with others and downloaded as high-resolution figures for use outside the
+                application, placing the researcher best prepared to interpret the results in full control. </p>
+        </div>
+    </div>
+</div>
+<div class="row schedulerow">
+    <div class="col-md-3 timeSpans"> 14:40-15:40 </div>
+    <div class="col-md-9 scheduledetails">
+        <div class="talk-title">
+            <strong>Invited Presentation: Visual Data Analysis Research in Biomedical Applications: Navigating the
+                Line Between Scientific Novelty and Practical Impact</strong>
+        </div>
+        <ul class="authorsList">
+            <li><span class="speaker">Ingrid Hotz</span> </li>
+        </ul>
+        <p>
+            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
+        </p>
+        <div style="display:none;">
+            <p> Visualization has a long-standing tradition in biomedical research, yet its potential as a tool for
+                data exploration and analytical reasoning remains underused. In this talk, I will share results and
+                experiences from recent interdisciplinary collaborations in this area, including projects on
+                molecular dynamics, electronic structure modeling, and hypothesis generation in medicine. In
+                addition to presenting results, I will reflect on the challenges of working across domains, the
+                sometimes slow but often rewarding process of building trust, and the tension between scientific
+                innovation in both fields and real-world applicability. These reflections also raise broader
+                questions about research sustainability: When is a project complete, and when is it time to move on?
             </p>
-        </div>
-        <div class="talk-title">
-            <strong>Interactive visualisation of raw nanopore signal data with Squigualiser</strong>
-        </div>
-
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Zeynep Gümüş
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Hiruna Samarakoon</span>, University of New South Wales, Sydney; Garvan
-                    Institute of Medical Research, Sydney, Australia </li>
-                <li>Kisaru Liyanage, University of New South Wales, Sydney; Garvan Institute of Medical Research,
-                    Sydney, Australia </li>
-                <li>James M. Ferguson, Garvan Institute of Medical Research, Sydney, Australia </li>
-                <li>Sri Parameswaran, University of Sydney, Sydney, Australia </li>
-                <li>Hasindu Gamaarachchi, University of New South Wales, Sydney; Garvan Institute of Medical
-                    Research, Sydney, Australia </li>
-                <li>Ira W. Deveson, Garvan Institute of Medical Research, Sydney, Australia </li>
-            </ul>
-        </div>
-        <p>
-            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
-        </p>
-        <div style="display:none;">
-            <p> Nanopore sequencing measures ionic current during the translocation of DNA, RNA or protein molecules
-                through a nanoscale protein pore. This raw current signal data can be ‘basecalled’ into sequence
-                information and has the potential to identify other diverse molecular features, such as base
-                modifications, secondary structures, etc. Despite the unique properties and potential utility of
-                nanopore signal data, there are currently limited options available for signal data visualisation.
-                To address this, we have developed Squigualiser, a toolkit for intuitive, interactive visualisation
-                of sequence-aligned signal data, which currently supports both DNA and RNA sequencing data from
-                Oxford Nanopore Technologies (ONT) instruments. A series of methodological innovations enable
-                efficient alignment of raw signal data to a reference genome/transcriptome with single-base
-                resolution. Squigualiser generates an interactive signal browser view (HTML file), in which the user
-                can navigate across a genome/transcriptome region and customise the display. Multiple independent
-                reads are integrated into a signal ‘pileup’ format and different datasets can be displayed as
-                parallel tracks to facilitate their comparison. Squigualiser provides the most sophisticated
-                framework for nanopore signal data visualisation to date and will catalyse new advances in signal
-                analysis. We provide Squigualiser as an open-source tool for the nanopore community:
-                https://github.com/hiruna72/squigualiser </p>
-        </div>
-        <div class="talk-title">
-            <strong>Aggregate Annotated Single-Cell Heatmap Visualizations</strong>
-        </div>
-
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Zeynep Gümüş
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Devin Lange</span>, University of Utah, United States </li>
-                <li>Greg Finak, Ozette Technologies, United States </li>
-                <li>Evan Greene, Ozette Technologies, United States </li>
-                <li>Fritz Lekschas, Ozette Technologies, United States </li>
-            </ul>
-        </div>
-        <p>
-            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
-        </p>
-        <div style="display:none;">
-            <p> Heatmaps are commonly used in the biomedical field to visualize tabular data. In the single-cell
-                domain, heatmaps are frequently used to visualize cell counts of phenotypes (rows) across samples
-                (columns). Clinical applications may involve thousands or even tens of thousands of samples. With
-                modern clustering techniques, several hundred to thousands of phenotypes can be detected.
-                Additionally, each sample and phenotype can be associated with various metadata properties that are
-                necessary for sense-making. As datasets grow, increasing the number of rows and columns in the
-                heatmap can become overwhelming due to limitations in screen size and human perception. Fortunately,
-                there is often redundancy within phenotypes and samples. For instance, two phenotypes that only
-                differ by a single marker (e.g., a surface protein or gene) could be considered the same if that
-                marker is immaterial. Similarly, two samples may be so alike that they could be combined without a
-                noticeable difference in the emerging pattern. In other words, the data can often be aggregated. We
-                introduce a visualization technique that supports displaying annotated heatmaps at different levels
-                of detail. This framework provides support for constructing complex interactive collapsible heatmaps
-                while allowing enough customization to support different use cases. </p>
-        </div>
-    </div>
-</div>
-<div class="row schedulerow">
-    <div class="timeSpans"> 15:20-15:40 </div>
-    <div class="scheduledetails">
-        <div class="talk-title">
-            <strong>Aardvark: Composite Visualizations of Trees, Time-Series, and Images</strong>
-        </div>
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Zeynep Gümüş
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Devin Lange</span>, University of Utah, United States </li>
-                <li>Robert Judson-Torres, University of Utah, United States </li>
-                <li>Thomas A. Zangle, University of Utah, United States </li>
-                <li>Alexander Lex, University of Utah, United States </li>
-            </ul>
-        </div>
-        <p>
-            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
-        </p>
-        <div style="display:none;">
-            <p> How do cancer cells grow, divide, proliferate and die? How do drugs influence these processes? These
-                are difficult questions that we can attempt to answer with a combination of time-series microscopy
-                experiments, classification algorithms, and data visualization.
-                However, collecting this type of data and applying algorithms to segment and track cells and
-                construct lineages of proliferation is error-prone; and identifying the errors can be challenging
-                since it often requires cross-checking multiple data types. Similarly, analyzing and communicating
-                the results necessitates synthesizing different data types into a single narrative.
-                State-of-the-art visualization methods for such data use independent line charts, tree diagrams, and
-                images in separate views. However, this spatial separation requires the viewer of these charts to
-                combine the relevant pieces of data in memory.
-                To simplify this challenging task, we describe design principles for weaving cell images,
-                time-series data, and tree data into a cohesive visualization. Our design principles are based on
-                choosing a primary data type that drives the layout and integrates the other data types into that
-                layout. We then introduce Aardvark, a system that uses these principles to implement novel
-                visualization techniques. Based on Aardvark, we demonstrate the utility of each of these approaches
-                for discovery, communication, and data debugging in a series of case studies. </p>
-        </div>
-    </div>
-</div>
-<div class="row schedulerow">
-    <div class="timeSpans"> 15:40-16:00 </div>
-    <div class="scheduledetails">
-        <div class="talk-title">
-            <strong>Boosting Data Interpretation with GIBOOST to Enhance Visualization of High-Dimensional
-                Data</strong>
-        </div>
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Zeynep Gümüş
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Komlan Atitey</span>, National Institutes Health (NIH), United States
-                </li>
-                <li>Benedict Anchang, National Institutes Health (NIH), United States </li>
-            </ul>
-        </div>
-        <p>
-            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
-        </p>
-        <div style="display:none;">
-            <p> Effective visualization of current biomedical data from high-throughput technologies is essential
-                for proper interpretability of complex biological processes but challenging due to its
-                high-dimensionality, increasing volume and underlying biological complexity. This requires advanced
-                dimensionality reduction methods (DRM) like t-SNE, UMAP, PHATE for optimal data reduction. However,
-                different DRM may produce varied outputs, hindering consistent interpretation as well as making
-                benchmarking challenging. Recently, we published MIBCOVIS, a Bayesian framework integrating five
-                robust metrics with different features to enhance visualization and interpretability of
-                high-dimensional data without relying on ground truth. We demonstrated that each visualization tool
-                uniquely optimizes specific features and no tool was able to optimize all features jointly.
-                Leveraging on this observation, we propose GIBOOST, a new visualization tool aimed at synergizing
-                information from disparate sources for optimal data reduction and visualization. Given
-                high-dimensional data, GIBOOST uses an optimized integrative autoencoder to integrate and select the
-                two best data reduction methods from a pool of methods with the maximum additive clustering
-                sensitivity effect condition on other visualization features. We apply GIBOOST to enhance the
-                clustering separability of four distinct dynamic biological processes; EMT, Spermatogenesis, induced
-                stem-cell pluripotency and placenta development. From all datasets, on average GIBOOST improved
-                clustering sensitivity by 76% compared to the individual methods. </p>
-        </div>
-    </div>
-</div>
-<div class="row schedulerow">
-    <div class="timeSpans"> 16:40-17:00 </div>
-    <div class="scheduledetails">
-        <div class="talk-title">
-            <strong>Proceedings Presentation: Unveil Cis-acting Combinatorial mRNA Motifs by Interpreting Deep
-                Neural Network</strong>
-        </div>
-
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Qianwen Wang
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Xiaocheng Zeng</span>, Dept. of Automation, Tsinghua University, China
-                </li>
-                <li>Zheng Wei, Tsinghua Univ., China </li>
-                <li>Qixiu Du, Department of Automation, Tsinghua University, China </li>
-                <li>Jiaqi Li, Tsinghua University, China </li>
-                <li>Zhen Xie, Tsinghua University, China </li>
-                <li>Xiaowo Wang, Tsinghua University, China </li>
-            </ul>
-        </div>
-        <p>
-            <strong>Presentation Overview:</strong> <a class="showToggle3">Show</a>
-        </p>
-        <div style="display:none;">
-            <p> Cis-acting mRNA elements play a key role in the regulation of mRNA stability and translation
-                efficiency. Revealing the interactions of these elements and their impact plays a crucial role in
-                understanding the regulation of the mRNA translation process, which supports the development of
-                mRNA-based medicine or vaccines. Deep neural networks (DNN) can learn complex cis-regulatory codes
-                from RNA sequences. However, extracting these cis-regulatory codes efficiently from DNN remains a
-                significant challenge. Here we propose a method based on our toolkit NeuronMotif and motif
-                mutagenesis, which not only enables the discovery of diverse and high-quality motifs but also
-                efficiently reveals motif interactions. By interpreting deep-learning models, we have discovered
-                several crucial motifs that impact mRNA translation efficiency and stability, as well as some
-                unknown motifs or motif syntax, offering novel insights for biologists. Furthermore, we note that it
-                is challenging to enrich motif syntax in datasets composed of randomly generated sequences, and they
-                may not contain sufficient biological signals. </p>
-        </div>
-    </div>
-</div>
-
-<div class="row schedulerow">
-    <div class="timeSpans"> 17:00-17:50 </div>
-    <div class="scheduledetails">
-        <div class="talk-title">
-            <strong>Invited Presentation: The Insight's in the Details: Challenges and Opportunities for BioVis Software Tools</strong>
-        </div>
-
-
-        <div class="room">
-            <strong>Moderator(s):</strong> Qianwen Wang
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Fritz Lekschas</span>, Ozette Technologies </li>
-            </ul>
-        </div>
-        <p>
-            <strong>Presentation Overview:</strong> <a class="showToggle3">Hide</a>
-        </p>
-        <div style="display:block;">
-            <p>Biological data visualizations often deal with datasets resulting from complex analytical workflows or large-scale experiments. 
-               These aspects complicate visual exploration, as insights are frequently found in the details. To surface these insights effectively, 
-               BioVis software tools must address several key challenges: integrating closely with computation and data, being composable, scaling 
-               to the task, and offering bi-directional interactions for AI/ML guidance.<br/><br/>
-
-               Fortunately, software best-practices and new frameworks make it easier than ever to overcome these challenges. In this talk, Fritz 
-               Lekschas will discuss these practices and frameworks using examples from his research in genomics and single-cell biology and the broader BioVis community.
-            </p>
-        </div>
-    </div>
-</div>
-
-<div class="row schedulerow">
-    <div class="timeSpans"> 17:50-18:00 </div>
-    <div class="scheduledetails">
-        <div class="talk-title">
-            <strong>Award Ceremony and Closing</strong>
-        </div>
-
-        <div>
-            <ul class="authorsList">
-                <li><span class="speaker">Jan Byška</span> </li>
-                <li><span class="speaker">Qianwen Wang</span> </li>
-            </ul>
         </div>
     </div>
 </div>
