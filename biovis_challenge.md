@@ -294,7 +294,7 @@ Check back here for the workshop program closer to the event date\!
 
 -   Submission: August 15, 2025
 -   Notification: September 5, 2025
--   Camera-ready version: September 26, 2026
+-   Camera-ready version: September 26, 2025
 -   Bio+MedVis Challenge event: November 2, 2025
 
 ## Questions?
