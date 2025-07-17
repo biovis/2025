@@ -240,12 +240,22 @@ own visualization/visual analytics systems or build on other systems.
 
 Jupyter notebook: [BioMedVis Challenge 2025.ipynb](https://colab.research.google.com/drive/1hMXNI3dbIM4JTnQ69fgVrsvO3Jq0ZPDo?usp=sharing)
 
-AWS Bucket: [https://lsp-public-data.s3.amazonaws.com/yapp-2023-3d-melanoma/](https://lsp-public-data.s3.amazonaws.com/yapp-2023-3d-melanoma/)
+**UPDATE 7/16/25: **
+The dataset for the 3D Microscopy Imaging Challenge is now available at: s3://lsp-public-data/biomedvis-challenge-2025
 
-Access Instructions: [https://zenodo.org/records/10223574](https://zenodo.org/records/10223574)
+AWS Bucket: 
+s3://lsp-public-data/biomedvis-challenge-2025/ or 
+[https://lsp-public-data.s3.amazonaws.com/biomedvis-challenge-2025/](https://lsp-public-data.s3.amazonaws.com/biomedvis-challenge-2025/)
 
-To browse the data, we suggest using Cyberduck, as outlined in the instructions
-above.
+Access Instructions: We recommend accessing the data directly in Zarr format, as demonstrated in the [Notebook](https://colab.research.google.com/drive/1hMXNI3dbIM4JTnQ69fgVrsvO3Jq0ZPDo?usp=sharing)
+
+Alternatively, you can browse and download files via the AWS CLI:
+
+```
+aws s3 ls s3://lsp-public-data/biomedvis-challenge-2025/
+aws s3 cp s3://lsp-public-data/biomedvis-challenge-2025/README.md .
+```
+or using [Cyberduck](https://zenodo.org/records/10223574).
 
 ### References
 
