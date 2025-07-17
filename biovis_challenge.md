@@ -261,6 +261,7 @@ Submissions for either the redesign or the main challenge will be considered for
 talk or poster presentations. Please send a two-page PDF abstract with up to 5
 additional figures to PCS:
 [new.precisionconference.com/submissions](http://new.precisionconference.com/submissions).
+Your submission should use the [VGTC conference two-column format](https://tc.computer.org/vgtc/publications/conference).
 Your submission should include:
 
 -   a thorough **description and justification** of your visualization (and analysis) techniques–_use the space to describe your approach, and keep background and data detail descriptions to a minimum._
