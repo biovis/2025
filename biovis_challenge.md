@@ -303,7 +303,7 @@ Check back here for the workshop program closer to the event date\!
 
 ## Important dates
 
--   Submission (<span style="color:red">extended</span>): August 22, 2025
+-   Submission (<span style="color:red">extended</span>): August 22, 2025 [Anywhere On Earth](https://time.is/Anywhere_on_Earth) 
 -   Notification: September 5, 2025
 -   Camera-ready version: September 26, 2025
 -   Bio+MedVis Challenge event: November 2, 2025
