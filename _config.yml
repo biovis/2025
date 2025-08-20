@@ -8,15 +8,15 @@ conferenceshort: "BioVis 2025"
 
 IEEE_conference_date: "November 2 - 7, 2025"
 IEEE_conference_place: "Vienna, Austria"
-IEEE_challenge_date: "TBA"
+IEEE_challenge_date: "November 2, 2025"
 
 year: 2025
 
 # Old deadlines so I remember what they're called
 # When everything breaks
-IEEE_deadline_submission: "TBA"
-IEEE_deadline_notification: "TBA"
-IEEE_deadline_camera: "TBA"
+IEEE_deadline_submission: "August 22, 202 "
+IEEE_deadline_notification: "September 5, 2025"
+IEEE_deadline_camera: "September 26, 2025"
 
 ismb_conference_name: "ISMB/ECCB 2025"
 ismb_conference_link: "https://www.iscb.org/ismbeccb2025"
