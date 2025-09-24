@@ -56,7 +56,7 @@ menu: main
 [Jan Aerts](http://vda-lab.be), KU Leuven and U Hasselt, Belgium  
 [Jan Byska](https://vis.uib.no/team/jan-byska/), Masaryk University, Czech Republic and University of Bergen, Norway  
 [Helena Jambor](https://helenajambor.wordpress.com/), TU Dresden, Germany  
-[Michael Krone](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/visuelle-big-data-analytik-in-den-lebenswissenschaften/team/jun-prof-dr-michael-krone/), University of Tübingen, Germany  
+[Michael Krone](https://www.hft-stuttgart.de/p/michael-krone), Stuttgart Technical University of Applied Sciences, Germany  
 [G. Elisabeta Marai](https://www.evl.uic.edu/marai/), University of Illinois at Chicago, USA  
 [Jim Procter](https://www.lifesci.dundee.ac.uk/people/jim-procter), University of Dundee, UK  
 [Cagatay Turkay](https://warwick.ac.uk/fac/cross_fac/cim/people/cagatay-turkay/), University of Warwick, UK
