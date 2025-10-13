@@ -297,9 +297,17 @@ author’s status as a **_Student_** (BSc/MSc) or **_Researcher/Professional_**
 subdivide these status categories to better weigh the contribution against the
 experience of the submitters.
 
+### Keynote Talk
+
+**From Rendering to Reasoning: Evolving Visualization for Life Sciences**  
+*[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Analytics, University of Rostock, Germany.*
+
+**Talk Abstract:** In the past decades, visualization in the life sciences has matured from a focus on making images to a deeper mission of making sense. In this talk, I examine this evolution through the lens of human-computer collaboration: how we moved from raw rendering, to interpretable visual representation, to interactive co-exploration, and finally to reasoning and communication at scale. Along this trajectory, visualization has expanded its role from a technical enabler of data display to an intellectual partner in discovery and decision-making. The talk highlights key milestones, examples, and open challenges that illustrate how visualization increasingly serves as a medium for shared reasoning between humans, data, and intelligent systems.
+
+
 ## Program
 
-Check back here for the workshop program closer to the event date\!
+[View the tentative program here]({{site.baseurl}}/program_ieee/).
 
 ## Important dates
 
