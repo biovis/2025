@@ -25,19 +25,22 @@ layout: home
             </div>
         </div>
     </a>
-    <a class="event-box" href="{{site.baseurl}}/meetup">
+
+    {% for post in site.posts %} {% capture category
+    %}{{post.event}}{% endcapture %} {% if category == "meetup" %}
+    <a class="event-box" href="{{ post.url | prepend: site.baseurl }}#join">
         {% include_relative images/logos/meetup.svg %}
         <div class="event-details">
             <div class="event-name">BioVis Meetup</div>
             <div class="event-location">Virtual</div>
             <div class="event-date">
-                {% for post in site.posts %} {% capture category
-                %}{{post.event}}{% endcapture %} {% if category == "meetup" %}
-                {{ post.meetup_date | date: "%B %-d, %Y" }} {% break %} {% endif
-                %} {% endfor %}
+                {{ post.meetup_date | date: "%B %-d, %Y" }}
             </div>
         </div>
     </a>
+    {% break %} {% endif %}
+    {% endfor %}
+
     <div class="event-box">
         <div class="event-details">
             <div class="event-name">Important Dates</div>
