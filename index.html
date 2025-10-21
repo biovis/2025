@@ -25,19 +25,22 @@ layout: home
             </div>
         </div>
     </a>
-    <a class="event-box" href="{{site.baseurl}}/meetup">
+
+    {% for post in site.posts %} {% capture category
+    %}{{post.event}}{% endcapture %} {% if category == "meetup" %}
+    <a class="event-box" href="{{ post.url | prepend: site.baseurl }}#join">
         {% include_relative images/logos/meetup.svg %}
         <div class="event-details">
             <div class="event-name">BioVis Meetup</div>
             <div class="event-location">Virtual</div>
             <div class="event-date">
-                {% for post in site.posts %} {% capture category
-                %}{{post.event}}{% endcapture %} {% if category == "meetup" %}
-                {{ post.meetup_date | date: "%B %-d, %Y" }} {% break %} {% endif
-                %} {% endfor %}
+                {{ post.meetup_date | date: "%B %-d, %Y" }}
             </div>
         </div>
     </a>
+    {% break %} {% endif %}
+    {% endfor %}
+
     <div class="event-box">
         <div class="event-details">
             <div class="event-name">Important Dates</div>
@@ -94,8 +97,9 @@ layout: home
     <h3 style="margin-top: var(--gap)">News</h3>
 
     <ul class="post-list">
-        {% for post in site.posts limit:3 %} {% capture category
-        %}{{post.event}}{% endcapture %}
+        {% for post in site.posts limit:3 %}
+        {% capture category %}{{post.event}}{% endcapture %}
+        {% capture meetup_date %}{{post.meetup_date}}{% endcapture %}
         <li class="post-list-item">
             <span class="type {{category}}">
                 {% if category == "ismb" %}
@@ -111,11 +115,13 @@ layout: home
                 {% endif %}
             </span>
 
-            <span class="post-list-title">
-                {{ post.date | date: "%-d %b %Y" }}
+            <span class="">
+                Posted on <strong>{{ post.date | date: "%-d %b %Y" }}</strong>
             </span>
+
             <h4>
                 <a class="post-list-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                {% if meetup_date and meetup_date != '' %} <span>({{ post.meetup_date | date: "%b %-d, %Y" }})</span> {% endif %}
             </h4>
             <span class="post-list-excerpt"> {{ post.excerpt }} </span>
         </li>
