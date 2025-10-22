@@ -5,23 +5,26 @@ permalink: /biovisChallenges_vis/
 ---
 
 # Bio+MedVis Challenge @ IEEE VIS 2025
-### Sunday, November 2, 2025, 9:00 AM - 12:30 PM (CET)
 
+### Sunday, November 2, 2025, 9:00 AM - 12:30 PM (CET)
 
 ### Keynote Talk
 
-<p style="float: right; width: 20%; margin-left: 1em;">
-<img src="https://sbruckner.github.io/assets/img/StefanBruckner-800.webp" alt="Stefan Bruckner" style="width: 100%; border-radius: 8px;">
-</p>
+<figure class="speaker-photo" style="width: min(35vw, 13em);">
+    <img src="https://sbruckner.github.io/assets/img/StefanBruckner-800.webp" alt="Stefan Bruckner" />
+    <figcaption>Stefan Bruckner</figcaption>
+</figure>
 
 **From Rendering to Reasoning: Evolving Visualization for Life Sciences**  
-*[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Analytics, University of Rostock, Germany.*
+_[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Analytics, University of Rostock, Germany._
 
 **Talk Abstract:** In the past decades, visualization in the life sciences has matured from a focus on making images to a deeper mission of making sense. In this talk, I examine this evolution through the lens of human-computer collaboration: how we moved from raw rendering, to interpretable visual representation, to interactive co-exploration, and finally to reasoning and communication at scale. Along this trajectory, visualization has expanded its role from a technical enabler of data display to an intellectual partner in discovery and decision-making. The talk highlights key milestones, examples, and open challenges that illustrate how visualization increasingly serves as a medium for shared reasoning between humans, data, and intelligent systems.
-## Program
-[View the tentative program here]({{site.baseurl}}/program_ieee/).
-## Challenges
 
+## Program
+
+[View the tentative program here]({{site.baseurl}}/program_ieee/).
+
+## Challenges
 
 -   [Redesign Challenge](#redesign-challenge-redesign-an-existing-visualization)
 -   [3D Microscopy Imaging Challenge](#3d-microscopy-imaging-challenge-from-a-raw-imaging-volume-to-biological-findings)
@@ -260,8 +263,8 @@ Jupyter notebook: [BioMedVis Challenge 2025.ipynb](https://colab.research.google
 **UPDATE 7/16/25: **
 The dataset for the 3D Microscopy Imaging Challenge is now available at: s3://lsp-public-data/biomedvis-challenge-2025
 
-AWS Bucket: 
-s3://lsp-public-data/biomedvis-challenge-2025/ or 
+AWS Bucket:
+s3://lsp-public-data/biomedvis-challenge-2025/ or
 [https://lsp-public-data.s3.amazonaws.com/biomedvis-challenge-2025/](https://lsp-public-data.s3.amazonaws.com/biomedvis-challenge-2025/)
 
 Access Instructions: We recommend accessing the data directly in Zarr format, as demonstrated in the [Notebook](https://colab.research.google.com/drive/1hMXNI3dbIM4JTnQ69fgVrsvO3Jq0ZPDo?usp=sharing)
@@ -272,6 +275,7 @@ Alternatively, you can browse and download files via the AWS CLI:
 aws s3 ls s3://lsp-public-data/biomedvis-challenge-2025/
 aws s3 cp s3://lsp-public-data/biomedvis-challenge-2025/README.md .
 ```
+
 or using [Cyberduck](https://zenodo.org/records/10223574).
 
 ### References
@@ -316,7 +320,7 @@ experience of the submitters.
 
 ## Important dates
 
--   Submission (<span style="color:red">extended</span>): August 22, 2025 [Anywhere On Earth](https://time.is/Anywhere_on_Earth) 
+-   Submission (<span style="color:red">extended</span>): August 22, 2025 [Anywhere On Earth](https://time.is/Anywhere_on_Earth)
 -   Notification: September 5, 2025
 -   Camera-ready version: September 26, 2025
 -   Bio+MedVis Challenge event: November 2, 2025
