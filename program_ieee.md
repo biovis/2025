@@ -53,7 +53,7 @@ _[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Ana
 <td><strong>10:05 - 10:10</strong></td>
 <td>5 min</td>
 <td><strong>t-SNE based Transfer Functions for Multi-attribute Volume Rendering</strong> <br> <em><u>Ravi Snellenberg,</u> TU Delft</em> <br>
-        <em>Thomas Hollt, TU Delft</em>
+        <em>Thomas Höllt, TU Delft</em>
 </td>
 </tr>
 <tr style="vertical-align: top;">
@@ -190,7 +190,7 @@ Visualization and Assessment</strong> <br>
 <td>5 min</td>
 <td><strong>From Peaks to Patterns</strong> <br> 
         <em><u>Hossein Fathollahian</u>, University of Illinois Chicago</em> <br>
-        <em>University of Illinois Chicago, Rush University Medical Center</em> <br>
+        <em>Marziye Salahshour, Rush University Medical Center, Chicago</em> <br>
     
 </td>
 </tr>
