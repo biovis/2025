@@ -188,6 +188,7 @@ Visualization and Assessment</strong> <br>
         <em>Zeyad Wail, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
         <em>Mohamed Ahmed, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
         <em>Ammar Yassir, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
+        <em>Muhammad Rushdi, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
 </td>
 </tr>
 
