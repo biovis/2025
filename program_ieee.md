@@ -52,14 +52,14 @@ _[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Ana
 <tr style="vertical-align: top;">
 <td><strong>10:05 - 10:10</strong></td>
 <td>5 min</td>
-<td><strong>t-SNE based Transfer Functions for Multi-attribute Volume Rendering</strong> <br> <em><u>Ravi Snellenberg,</u> TU Delft</em> <br>
+<td><strong>t-SNE based Transfer Functions for Multi-attribute Volume Rendering</strong> [Award of Merit] <br> <em><u>Ravi Snellenberg,</u> TU Delft</em> <br>
         <em>Thomas Höllt, TU Delft</em>
 </td>
 </tr>
 <tr style="vertical-align: top;">
 <td><strong>10:10 - 10:15</strong></td>
 <td>5 min</td>
-<td><strong>Attention-based ROI Discovery in 3D Tissue Images</strong> <br> <em><u>Hossein Fathollahian,</u> University of Illinois Chicago</em> <br>
+<td><strong>Attention-based ROI Discovery in 3D Tissue Images</strong> [Award of Merit] <br> <em><u>Hossein Fathollahian,</u> University of Illinois Chicago</em> <br>
         <em>Siyuan Zhao, University of Illinois Chicago</em> <br>
         <em>Nafiul Nipu, University of Illinois Chicago</em> <br>
         <em>G. Elisabeta Marai, University of Illinois Chicago</em>
@@ -68,7 +68,7 @@ _[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Ana
 <tr style="vertical-align: top;">
 <td><strong>10:15 - 10:20</strong></td>
 <td>5 min</td>
-<td><strong>Made of Stars</strong> <br> 
+<td><strong>Made of Stars</strong> [Award of Merit] <br> 
         <em>Hauke Bartsch, University of Bergen</em> <br>
         <em>Lennart Elbe, University of California, San Francisco</em> <br>
         <em><u>Pia Elbe,</u> University of Konstanz</em>
@@ -87,7 +87,7 @@ Immunofluorescence Images</strong> <br>
 <tr style="vertical-align: top;">
 <td><strong>10:25 - 10:30</strong></td>
 <td>5 min</td>
-<td><strong>BioSET - Biomarker-based Spatial co-Expression analysis in Tumor environments</strong> <br> 
+<td><strong>BioSET - Biomarker-based Spatial co-Expression analysis in Tumor environments</strong> [Award of Excellence] <br> 
         <em><u>Chahat Kalsi</u>, New York University</em> <br>
         <em>Yuancheng Shen, New York University</em> <br>
         <em>Sophia Gaupp, University of Tübingen</em> <br>
@@ -125,7 +125,7 @@ Immunofluorescence Images</strong> <br>
 <tr style="vertical-align: top;">
 <td><strong>11:05 - 11:10</strong></td>
 <td>5 min</td>
-<td><strong>MRSight: Visualizing Insights for Magnetic Resonance Spectroscopy</strong> <br> 
+<td><strong>MRSight: Visualizing Insights for Magnetic Resonance Spectroscopy</strong> [Award of Merit] <br> 
         <em><u>Ke Er Amy Zhang</u>, University of Bergen</em> <br>
         <em>Shehryar Saharan, University of Toronto</em> <br>
 </td>
@@ -145,7 +145,7 @@ Immunofluorescence Images</strong> <br>
 <td><strong>11:15 - 11:20</strong></td>
 <td>5 min</td>
 <td><strong>Multi-View Visual Analysis of Chemical Shifts in Magnetic Resonance
-Spectroscopy</strong> <br> 
+Spectroscopy</strong> [Award of Merit] <br> 
         <em><u>Tim Markwardt</u>, Fraunhofer Institute for Computer Graphics Research</em> <br>
         <em>Antonios Raptakis, Fraunhofer Institute for Computer Graphics Research</em> <br>
         <em>Nicola M. Drüeke, Fraunhofer Institute for Computer Graphics Research</em> <br>
@@ -177,7 +177,7 @@ Spectroscopy</strong> <br>
 <td><strong>11:30 - 11:35</strong></td>
 <td>5 min</td>
 <td><strong>MRSight: Ratio-Weighted Complete and Visibility Graphs for MRS Data
-Visualization and Assessment</strong> <br> 
+Visualization and Assessment</strong> [Award of Excellence] <br> 
         <em><u>Ahmed Hajhamed</u>, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
         <em>Zeyad Wail, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
         <em>Mohamed Ahmed, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
@@ -189,7 +189,7 @@ Visualization and Assessment</strong> <br>
 <tr style="vertical-align: top;">
 <td><strong>11:35 - 11:40</strong></td>
 <td>5 min</td>
-<td><strong>From Peaks to Patterns</strong> <br> 
+<td><strong>From Peaks to Patterns</strong> [Award of Merit] <br> 
         <em><u>Hossein Fathollahian</u>, University of Illinois Chicago</em> <br>
         <em>Marziye Salahshour, Rush University Medical Center, Chicago</em> <br>
     
