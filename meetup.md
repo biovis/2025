@@ -14,3 +14,5 @@ We hope this space will grow over time and evolve with input from the worldwide
 community of all people "BioVis": wet-lab researchers, clinicians,
 bioinformaticians, visualization researchers, designers, data scientists, all
 invested in biomedical data visualization.
+
+Recordings of previous meetups can be found at [the BioVis meetup playlist on youtube](https://youtube.com/playlist?list=PL5kIQRQ6TU8Ifu_5h2iipUmIKCqhs50zx&si=xGS1PdMO2RZD_JYv)
