@@ -22,7 +22,7 @@ _[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Ana
 
 ## Program
 
-[View the tentative program here]({{site.baseurl}}/program_ieee/).
+[View the program and submissions here]({{site.baseurl}}/program_ieee/).
 
 ## Challenges
 

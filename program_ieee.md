@@ -54,6 +54,10 @@ _[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Ana
 <td>5 min</td>
 <td><strong>t-SNE based Transfer Functions for Multi-attribute Volume Rendering</strong> [Award of Merit] <br> <em><u>Ravi Snellenberg,</u> TU Delft</em> <br>
         <em>Thomas Höllt, TU Delft</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/3178/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/3178/supp.zip">[Supplement]</A>
+
 </td>
 </tr>
 <tr style="vertical-align: top;">
@@ -63,6 +67,9 @@ _[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Ana
         <em>Siyuan Zhao, University of Illinois Chicago</em> <br>
         <em>Nafiul Nipu, University of Illinois Chicago</em> <br>
         <em>G. Elisabeta Marai, University of Illinois Chicago</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/1929/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/1929/supp.zip">[Supplement]</A>
 </td>
 </tr>
 <tr style="vertical-align: top;">
@@ -72,6 +79,9 @@ _[Stefan Bruckner](https://sbruckner.github.io/), Professor, Chair of Visual Ana
         <em>Hauke Bartsch, University of Bergen</em> <br>
         <em>Lennart Elbe, University of California, San Francisco</em> <br>
         <em><u>Pia Elbe,</u> University of Konstanz</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/6321/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/6321/supp.zip">[Supplement]</A>
 </td>
 </tr>
 <tr style="vertical-align: top;">
@@ -82,6 +92,9 @@ Immunofluorescence Images</strong> <br>
         <em>Uroš Šmajdek, Faculty for Computer and Information Science, University of Ljubljana</em> <br>
         <em>Eva Boneš, Faculty for Computer and Information Science, University of Ljubljana</em> <br>
         <em><u>Ciril Bohak</u>, Faculty for Computer and Information Science, University of Ljubljana</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/9750/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/9750/supp.zip">[Supplement]</A>
 </td>
 </tr>
 <tr style="vertical-align: top;">
@@ -96,6 +109,9 @@ Immunofluorescence Images</strong> <br>
         <em>Michael Krone, Stuttgart University of Applied Sciences</em> <br>
         <em>Saeed Boorboor, University of Illinois Chicago</em> <br>
         <em>Robert Krüger, New York University</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/9592/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/9592/supp.zip">[Supplement]</A>
 </td>
 </tr>
 </tbody>
@@ -127,7 +143,10 @@ Immunofluorescence Images</strong> <br>
 <td>5 min</td>
 <td><strong>MRSight: Visualizing Insights for Magnetic Resonance Spectroscopy</strong> [Award of Merit] <br> 
         <em><u>Ke Er Amy Zhang</u>, University of Bergen</em> <br>
-        <em>Shehryar Saharan, University of Toronto</em> <br>
+        <em>Shehryar Saharan, University of Toronto</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/2230/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/2230/supp.zip">[Supplement]</A>
 </td>
 </tr>
 
@@ -137,7 +156,10 @@ Immunofluorescence Images</strong> <br>
 <td><strong>SpectraScope: An Interactive Redesign of Multi-Subject MRS Visualization and Metabolite Ratio Analysis</strong> <br> 
         <em><u>Melkamu Achamyeleh Alemu</u>, Federal University of Viçosa</em> <br>
         <em>Sabrina de Azevedo Silveira, Federal University of Viçosa</em> <br>
-        <em>Vitor B. Souza, Federal University of Viçosa</em> <br>
+        <em>Vitor B. Souza, Federal University of Viçosa</em> 
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/3592/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/3592/supp.zip">[Supplement]</A>
 </td>
 </tr>
 
@@ -151,7 +173,10 @@ Spectroscopy</strong> [Award of Merit] <br>
         <em>Nicola M. Drüeke, Fraunhofer Institute for Computer Graphics Research</em> <br>
         <em>Davy Göbel, Fraunhofer Institute for Computer Graphics Research</em> <br>
         <em>Steve Dübel, Fraunhofer Institute for Computer Graphics Research</em> <br>
-        <em>Lars Nonnemann, Fraunhofer Institute for Computer Graphics Research</em> <br>
+        <em>Lars Nonnemann, Fraunhofer Institute for Computer Graphics Research</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/1920/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/1920/supp.zip">[Supplement]</A>
 </td>
 </tr>
 
@@ -161,7 +186,10 @@ Spectroscopy</strong> [Award of Merit] <br>
 <td><strong>Interactive Redesign of 31P-MRS Spectra Visualization Using Jupyter Notebook in Google Colab for Enhanced Neurometabolic Interpretation</strong> <br> 
         <em><u>Msugh Ortil</u>, Federal University of Viçosa</em> <br>
         <em>Sabrina De Azevedo Silveira, Federal University of Viçosa</em> <br>
-        <em>Julio Cesar Soares Dos Reis, Federal University of Viçosa</em> <br>
+        <em>Julio Cesar Soares Dos Reis, Federal University of Viçosa</em> 
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/3816/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/3816/supp.zip">[Supplement]</A>
 </td>
 </tr>
 
@@ -169,7 +197,10 @@ Spectroscopy</strong> [Award of Merit] <br>
 <td><strong>11:25 - 11:30</strong></td>
 <td>5 min</td>
 <td><strong>Interactive Visual Analytics for Magnetic Resonance Spectroscopy Data</strong> <br> 
-        <em><u>Emanuel V.C. Ruella</u>, Federal University of Viçosa</em> <br>
+        <em><u>Emanuel V.C. Ruella</u>, Federal University of Viçosa</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/5750/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/5750/supp.zip">[Supplement]</A>
 </td>
 </tr>
 
@@ -182,7 +213,10 @@ Visualization and Assessment</strong> [Award of Excellence] <br>
         <em>Zeyad Wail, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
         <em>Mohamed Ahmed, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
         <em>Ammar Yassir, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
-        <em>Muhammad Rushdi, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em> <br>
+        <em>Muhammad Rushdi, Department of Biomedical Engineering and Systems, Cairo University, Egypt</em>
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/4440/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/4440/supp.zip">[Supplement]</A>
 </td>
 </tr>
 
@@ -191,7 +225,10 @@ Visualization and Assessment</strong> [Award of Excellence] <br>
 <td>5 min</td>
 <td><strong>From Peaks to Patterns</strong> [Award of Merit] <br> 
         <em><u>Hossein Fathollahian</u>, University of Illinois Chicago</em> <br>
-        <em>Marziye Salahshour, Rush University Medical Center, Chicago</em> <br>
+        <em>Marziye Salahshour, Rush University Medical Center, Chicago</em> 
+        <br>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/8930/final.pdf">[PDF]</A>
+        <a href="{{ post.url | prepend: site.baseurl }}/data/BioMedVisChallenge2025submissions/8930/supp.zip">[Supplement]</A>
     
 </td>
 </tr>
@@ -214,4 +251,3 @@ Visualization and Assessment</strong> [Award of Excellence] <br>
 </tbody>
 </table>
 
-_Note: This is a tentative program and may be subject to changes._
