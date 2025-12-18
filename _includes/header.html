@@ -1,3 +1,7 @@
+<div id="old-site-notification">
+    You are viewing a past year's BioVis website site. Click <a href="/">here</a> for the current site.
+</div>
+
 <header id="top-header">
     <button class="hamburger" aria-label="Toggle navigation menu">
         <span></span>
@@ -53,11 +57,11 @@
 </header>
 
 <script>
-	const topHeader = document.getElementById("top-header");
+    const topHeader = document.getElementById("top-header");
     document.querySelector("header .hamburger").addEventListener("click", e => {
-		topHeader.classList.toggle("menu-open");
-		e.stopPropagation();
-	});
+        topHeader.classList.toggle("menu-open");
+        e.stopPropagation();
+    });
     document.addEventListener("click", e => {
         if (!e.target.closest("nav")) {
             topHeader.classList.remove("menu-open");

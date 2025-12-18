@@ -21,6 +21,20 @@
     --font-base: 1.3;
 }
 
+#old-site-notification {
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 0.3em;
+    font-size: 0.9em;
+
+    a {
+        color: black;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     :root {
         --gap: calc(var(--base-gap) * 0.5);
